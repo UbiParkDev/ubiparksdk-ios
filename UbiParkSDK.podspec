@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
     s.author = 'UbiPark'
     s.platform = :ios
     s.source = { :http => 'https://github.com/UbiParkDev/ubiparksdk-ios/blob/main/UbiParkSDK.xcframework.zip'}
-    s.vendored_frameworks = "UbiParkSDK.xcframework"
+    s.vendored_framework = "UbiParkSDK.xcframework"
 end
