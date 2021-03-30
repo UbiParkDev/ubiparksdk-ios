@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.description = "An SDK for integrating your app with UbiPark."
     s.homepage = 'https://www.ubipark.com'
     s.author = 'UbiPark'
-    s.platform = :ios, '8.0'
+    s.platform = :ios
     s.source = { :http => 'https://github.com/UbiParkDev/ubiparksdk-ios/blob/main/UbiParkSDK.xcframework.zip'}
     s.vendored_frameworks = "UbiParkSDK.xcframework"
 end
