@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.homepage = 'https://www.ubipark.com'
     s.author = 'UbiPark'
     s.platform = :ios
-    s.source = { :http => 'https://github.com/UbiParkDev/ubiparksdk-ios.git'}
+    s.source = { :http => 'https://github.com/UbiParkDev/ubiparksdk-ios.git', :tag => "#{spec.version}" }
     s.ios.vendored_frameworks = "UbiParkSDK.xcframework"
     s.ios.deployment_target = '10.0'
 end
