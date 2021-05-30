@@ -1,6 +1,9 @@
 # ubiparksdk-ios
 UbiPark SDK for iOS
 
+CocoaPods:
+pod 'UbiParkSDK', :git => 'https://github.com/UbiParkDev/ubiparksdk-ios.git'
+
 Requirements
 Important Note: iOS 11.0 introduces breaking changes on how location permission is requested for background ‘Always’ scanning. See below for details on new NSLocationAlwaysAndWhenInUseUsageDescription plist key.
 
