@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'UbiParkSDK'
-    s.version = '1.0.5'
+    s.version = '1.0.6'
     s.license = { :type => 'Commercial'  }
     s.summary = "UbiParkSDK for integration with UbiPark."
     s.description = "An SDK for integrating your app with UbiPark."

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UbiParkSDK
 import UbiParkSDK.BlueCatsSDK
 import Foundation
@@ -103,7 +103,7 @@ public class DetailResult : Swift.Codable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
-public class LaneModel {
+public class LaneModel : Swift.Equatable {
   public var laneId: Swift.Int64?
   public var laneType: Swift.Int64?
   public var laneGroupId: Swift.Int64?
@@ -127,6 +127,7 @@ public class LaneModel {
   public func getMinDetectionSecs() -> Swift.Int64
   public func getMaxDetectionSecs() -> Swift.Int64
   public func getRetrySecs() -> Swift.Int64
+  public static func == (lhs: UbiParkSDK.LaneModel, rhs: UbiParkSDK.LaneModel) -> Swift.Bool
   @objc deinit
 }
 public class DetailsResult : Swift.Codable {
@@ -314,6 +315,7 @@ public class BeaconService {
   public init()
   public func setTimerEnabled(enabled: Swift.Bool)
   public func getClosestLane() -> UbiParkSDK.LaneModel?
+  public func setClosestLane(closestLane: UbiParkSDK.LaneModel?)
   public func getCarParkName() -> Swift.String
   public func getCarParkId() -> Swift.Int64
   public func reset(outOfRange: Swift.Bool)
