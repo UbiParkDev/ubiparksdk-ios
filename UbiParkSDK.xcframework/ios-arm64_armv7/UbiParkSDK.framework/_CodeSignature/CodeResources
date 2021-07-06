@@ -194,11 +194,11 @@
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm.swiftinterface</key>
 		<data>
-		cZzIb5WDDH5zpZxRqsUJ7/jx4UA=
+		wx8HffNAQA6VAaSR4BwdmPd4W9U=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		bDGlt2hkJnNcpQOGEu9KUvKMEpc=
+		U8S1juSmxregnPTXQyQicI1qHWA=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -206,11 +206,11 @@
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ERPDmaU2RANaxjxe+zaK8APffS4=
+		8IG/l5odtWT+jZQ11Xy8ykWbY2w=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qfMSqhRUIVhtjHIQ/Cm7uDJ+S2c=
+		K5j0I1DNdUfhebfFIuIFNwLe/4U=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -218,11 +218,11 @@
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		ERPDmaU2RANaxjxe+zaK8APffS4=
+		8IG/l5odtWT+jZQ11Xy8ykWbY2w=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		qfMSqhRUIVhtjHIQ/Cm7uDJ+S2c=
+		K5j0I1DNdUfhebfFIuIFNwLe/4U=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -230,11 +230,11 @@
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		cZzIb5WDDH5zpZxRqsUJ7/jx4UA=
+		wx8HffNAQA6VAaSR4BwdmPd4W9U=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		bDGlt2hkJnNcpQOGEu9KUvKMEpc=
+		U8S1juSmxregnPTXQyQicI1qHWA=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -242,11 +242,11 @@
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7.swiftinterface</key>
 		<data>
-		cZzIb5WDDH5zpZxRqsUJ7/jx4UA=
+		wx8HffNAQA6VAaSR4BwdmPd4W9U=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		bDGlt2hkJnNcpQOGEu9KUvKMEpc=
+		U8S1juSmxregnPTXQyQicI1qHWA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -765,22 +765,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cZzIb5WDDH5zpZxRqsUJ7/jx4UA=
+			wx8HffNAQA6VAaSR4BwdmPd4W9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			3jtRWUvrxmnd9XwAgYPzMqsATL/6XuOqOJ3+uzMtNPM=
+			pVNC1+YZHuinpKPqnj17VKv+wUzdfKbeaJsTQQOe8a0=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bDGlt2hkJnNcpQOGEu9KUvKMEpc=
+			U8S1juSmxregnPTXQyQicI1qHWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			HQIw3mUdWkPCmxl1yXU0pMuV2In1wNn0Letznz+c6hY=
+			yx8fRUpeMUYtpPcSE6HEOhPSsXoiKJjlVga7BZjZHR0=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -798,22 +798,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ERPDmaU2RANaxjxe+zaK8APffS4=
+			8IG/l5odtWT+jZQ11Xy8ykWbY2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			X/4n+SLr4QJ9Ed2ajmxS2Uo3WjzALGSUZqKQElIxrqo=
+			EctG3lLTWtY/bzJCWcZWk6LeDpBCybjdHHCzZVDMSgw=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qfMSqhRUIVhtjHIQ/Cm7uDJ+S2c=
+			K5j0I1DNdUfhebfFIuIFNwLe/4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			S2pI//lMWQ6SNar1oQI3rqDQOpKj5kP3yl784AMwfWw=
+			O274P4f4jH8IX6+L3utMSNLaU96KXnHVYR3aI85bon4=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64.swiftdoc</key>
@@ -831,22 +831,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ERPDmaU2RANaxjxe+zaK8APffS4=
+			8IG/l5odtWT+jZQ11Xy8ykWbY2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			X/4n+SLr4QJ9Ed2ajmxS2Uo3WjzALGSUZqKQElIxrqo=
+			EctG3lLTWtY/bzJCWcZWk6LeDpBCybjdHHCzZVDMSgw=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qfMSqhRUIVhtjHIQ/Cm7uDJ+S2c=
+			K5j0I1DNdUfhebfFIuIFNwLe/4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			S2pI//lMWQ6SNar1oQI3rqDQOpKj5kP3yl784AMwfWw=
+			O274P4f4jH8IX6+L3utMSNLaU96KXnHVYR3aI85bon4=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -864,22 +864,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cZzIb5WDDH5zpZxRqsUJ7/jx4UA=
+			wx8HffNAQA6VAaSR4BwdmPd4W9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			3jtRWUvrxmnd9XwAgYPzMqsATL/6XuOqOJ3+uzMtNPM=
+			pVNC1+YZHuinpKPqnj17VKv+wUzdfKbeaJsTQQOe8a0=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bDGlt2hkJnNcpQOGEu9KUvKMEpc=
+			U8S1juSmxregnPTXQyQicI1qHWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			HQIw3mUdWkPCmxl1yXU0pMuV2In1wNn0Letznz+c6hY=
+			yx8fRUpeMUYtpPcSE6HEOhPSsXoiKJjlVga7BZjZHR0=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7.swiftdoc</key>
@@ -897,22 +897,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cZzIb5WDDH5zpZxRqsUJ7/jx4UA=
+			wx8HffNAQA6VAaSR4BwdmPd4W9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			3jtRWUvrxmnd9XwAgYPzMqsATL/6XuOqOJ3+uzMtNPM=
+			pVNC1+YZHuinpKPqnj17VKv+wUzdfKbeaJsTQQOe8a0=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bDGlt2hkJnNcpQOGEu9KUvKMEpc=
+			U8S1juSmxregnPTXQyQicI1qHWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			HQIw3mUdWkPCmxl1yXU0pMuV2In1wNn0Letznz+c6hY=
+			yx8fRUpeMUYtpPcSE6HEOhPSsXoiKJjlVga7BZjZHR0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

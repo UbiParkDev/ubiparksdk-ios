@@ -547,6 +547,7 @@ public enum BeaconLogLevel : Swift.Int, Swift.Comparable {
   }
 }
 public struct UbiParkSDKConfig {
+  public static func getVersionNo() -> Swift.String
   public static func getAppId() -> Swift.String
   public static func setAppId(appId: Swift.String)
   public static func getBeaconToken() -> Swift.String
