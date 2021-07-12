@@ -104,7 +104,7 @@ public class DetailResult : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
 }
 public class LaneModel : Swift.Equatable {
-  public var laneId: Swift.Int64?
+  public var laneId: Swift.Int64
   public var laneType: Swift.Int64?
   public var laneGroupId: Swift.Int64?
   public var laneGroupDelay: Swift.Int64?
@@ -539,7 +539,7 @@ public struct NoticeLaneInfoResult : Swift.Codable {
 }
 public enum BeaconLogLevel : Swift.Int, Swift.Comparable {
   public static func < (lhs: UbiParkSDK.BeaconLogLevel, rhs: UbiParkSDK.BeaconLogLevel) -> Swift.Bool
-  case none, low, med, high
+  case none, low, med, high, verbose
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
