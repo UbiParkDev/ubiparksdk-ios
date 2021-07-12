@@ -198,7 +198,7 @@
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		I7D2AexfT8YmF7gBcMNcNeqff0c=
+		ltP4/t0wNGDrYQEtG0WmwzomV2Y=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		I7D2AexfT8YmF7gBcMNcNeqff0c=
+		ltP4/t0wNGDrYQEtG0WmwzomV2Y=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AzlQrm0dIX/m/NNG3tR5hU9GH0Y=
+		/895JlRse526enINgxjf+AyILts=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		AzlQrm0dIX/m/NNG3tR5hU9GH0Y=
+		/895JlRse526enINgxjf+AyILts=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -764,11 +764,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I7D2AexfT8YmF7gBcMNcNeqff0c=
+			ltP4/t0wNGDrYQEtG0WmwzomV2Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			bHFbdIMy9QVp8xAxLTEVfjojuHspn9tSfBW0G4+rDxg=
+			E8N8GcSDegmtyy8rHvBQzeCw+5yj7GfdlE84dlXlh0o=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/i386.swiftdoc</key>
@@ -797,11 +797,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I7D2AexfT8YmF7gBcMNcNeqff0c=
+			ltP4/t0wNGDrYQEtG0WmwzomV2Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			bHFbdIMy9QVp8xAxLTEVfjojuHspn9tSfBW0G4+rDxg=
+			E8N8GcSDegmtyy8rHvBQzeCw+5yj7GfdlE84dlXlh0o=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -830,11 +830,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AzlQrm0dIX/m/NNG3tR5hU9GH0Y=
+			/895JlRse526enINgxjf+AyILts=
 			</data>
 			<key>hash2</key>
 			<data>
-			HwbxTlJNjCOPbelgQrXqcPG5vY0bmocTGFFLggfT4Us=
+			NjSsYtiuwf6o5RGSSPJftLpMvcXeDCcg6Lg+sQCAjGU=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -863,11 +863,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AzlQrm0dIX/m/NNG3tR5hU9GH0Y=
+			/895JlRse526enINgxjf+AyILts=
 			</data>
 			<key>hash2</key>
 			<data>
-			HwbxTlJNjCOPbelgQrXqcPG5vY0bmocTGFFLggfT4Us=
+			NjSsYtiuwf6o5RGSSPJftLpMvcXeDCcg6Lg+sQCAjGU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
