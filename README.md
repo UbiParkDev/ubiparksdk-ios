@@ -38,3 +38,5 @@ Keys:
 NSLocationWhenInUseUsageDescription
 NSLocationAlwaysUsageDescription
 NSLocationAlwaysAndWhenInUseUsageDescription
+
+Api Documentation: https://ubiparkdev.github.io/ubiparksdk-ios/
