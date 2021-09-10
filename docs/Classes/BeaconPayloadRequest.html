@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BeaconPayloadRequest Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BeaconPayloadRequest" class="dashAnchor"></a>
+    <a title="BeaconPayloadRequest Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BeaconPayloadRequest Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenRequest.html">AuthTokenRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenResult.html">AuthTokenResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconModel.html">BeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadDetail.html">BeaconPayloadDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadItem.html">BeaconPayloadItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadRequest.html">BeaconPayloadRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadResult.html">BeaconPayloadResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService.html">BeaconService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkAPI.html">CarParkAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkModel.html">CarParkModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserRequest.html">CreateUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserResult.html">CreateUserResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailRequest.html">DetailRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailResult.html">DetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsRequest.html">DetailsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsResult.html">DetailsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterRequest.html">EnterRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterResult.html">EnterResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitRequest.html">ExitRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitResult.html">ExitResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconModel.html">LaneBeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconResult.html">LaneBeaconResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneModel.html">LaneModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneResult.html">LaneResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginRequest.html">LoginRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginResult.html">LoginResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeBeaconRequest.html">NoticeBeaconRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeDetailResult.html">NoticeDetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeMessageResult.html">NoticeMessageResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeRequest.html">NoticeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeResult.html">NoticeResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusRequest.html">StatusRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusResult.html">StatusResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateRequest.html">UpdateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateResult.html">UpdateResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserAPI.html">UserAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserRequest.html">UserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserResult.html">UserResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BeaconLogLevel.html">BeaconLogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BeaconServiceDelegate.html">BeaconServiceDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/NoticeLaneInfoResult.html">NoticeLaneInfoResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UbiParkSDKConfig.html">UbiParkSDKConfig</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BeaconPayloadRequest</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">BeaconPayloadRequest</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC5appIdSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/appId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC5appIdSSSgvp">appId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">appId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC12clientSecretSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/clientSecret" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC12clientSecretSSSgvp">clientSecret</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">clientSecret</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC6userIds5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/userId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC6userIds5Int64VSgvp">userId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC9userTokenSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/userToken" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC9userTokenSSSgvp">userToken</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">userToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC15currentLatitudeSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/currentLatitude" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC15currentLatitudeSdSgvp">currentLatitude</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">currentLatitude</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC16currentLongitudeSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/currentLongitude" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC16currentLongitudeSdSgvp">currentLongitude</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">currentLongitude</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC7appNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/appName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC7appNameSSSgvp">appName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">appName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC14appPackageNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/appPackageName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC14appPackageNameSSSgvp">appPackageName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">appPackageName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC10appVersionSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/appVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC10appVersionSSSgvp">appVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">appVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC8appBuildSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/appBuild" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC8appBuildSSSgvp">appBuild</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">appBuild</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC11deviceModelSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/deviceModel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC11deviceModelSSSgvp">deviceModel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">deviceModel</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC18deviceManufacturerSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/deviceManufacturer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC18deviceManufacturerSSSgvp">deviceManufacturer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">deviceManufacturer</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC10deviceNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/deviceName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC10deviceNameSSSgvp">deviceName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">deviceName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC13deviceVersionSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/deviceVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC13deviceVersionSSSgvp">deviceVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">deviceVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC14devicePlatformSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/devicePlatform" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC14devicePlatformSSSgvp">devicePlatform</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">devicePlatform</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC11deviceIdiomSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/deviceIdiom" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC11deviceIdiomSSSgvp">deviceIdiom</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">deviceIdiom</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC10deviceTypeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/deviceType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC10deviceTypeSSSgvp">deviceType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">deviceType</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC05inCarB0SbSgvp"></a>
+                    <a name="//apple_ref/swift/Property/inCarPark" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC05inCarB0SbSgvp">inCarPark</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">inCarPark</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC8isNestedSbSgvp"></a>
+                    <a name="//apple_ref/swift/Property/isNested" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC8isNestedSbSgvp">isNested</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isNested</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC10reasonTypes5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/reasonType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC10reasonTypes5Int64VSgvp">reasonType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">reasonType</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC03carB2IDs5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/carParkID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC03carB2IDs5Int64VSgvp">carParkID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unique identifier of a Car Park.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">carParkID</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC16calculatedLaneIDs5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/calculatedLaneID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC16calculatedLaneIDs5Int64VSgvp">calculatedLaneID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">calculatedLaneID</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC6laneIDs5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/laneID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC6laneIDs5Int64VSgvp">laneID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">laneID</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC12timestampUTC10Foundation4DateVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/timestampUTC" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC12timestampUTC10Foundation4DateVSgvp">timestampUTC</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">timestampUTC</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestC5itemsSayAA0dE4ItemCGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/items" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestC5itemsSayAA0dE4ItemCGSgvp">items</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">items</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/BeaconPayloadItem.html">BeaconPayloadItem</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK20BeaconPayloadRequestCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK20BeaconPayloadRequestCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

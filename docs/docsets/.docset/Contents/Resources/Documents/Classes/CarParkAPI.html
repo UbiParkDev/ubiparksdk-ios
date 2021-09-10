@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CarParkAPI Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CarParkAPI" class="dashAnchor"></a>
+    <a title="CarParkAPI Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CarParkAPI Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenRequest.html">AuthTokenRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenResult.html">AuthTokenResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconModel.html">BeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadDetail.html">BeaconPayloadDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadItem.html">BeaconPayloadItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadRequest.html">BeaconPayloadRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadResult.html">BeaconPayloadResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService.html">BeaconService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkAPI.html">CarParkAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkModel.html">CarParkModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserRequest.html">CreateUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserResult.html">CreateUserResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailRequest.html">DetailRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailResult.html">DetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsRequest.html">DetailsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsResult.html">DetailsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterRequest.html">EnterRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterResult.html">EnterResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitRequest.html">ExitRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitResult.html">ExitResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconModel.html">LaneBeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconResult.html">LaneBeaconResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneModel.html">LaneModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneResult.html">LaneResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginRequest.html">LoginRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginResult.html">LoginResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeBeaconRequest.html">NoticeBeaconRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeDetailResult.html">NoticeDetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeMessageResult.html">NoticeMessageResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeRequest.html">NoticeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeResult.html">NoticeResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusRequest.html">StatusRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusResult.html">StatusResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateRequest.html">UpdateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateResult.html">UpdateResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserAPI.html">UserAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserRequest.html">UserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserResult.html">UserResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BeaconLogLevel.html">BeaconLogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BeaconServiceDelegate.html">BeaconServiceDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/NoticeLaneInfoResult.html">NoticeLaneInfoResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UbiParkSDKConfig.html">UbiParkSDKConfig</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CarParkAPI</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">CarParkAPI</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC6detail8beaconID03carbH0AA13DetailsResultCSSSg_s5Int64VSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/detail(beaconID:carParkID:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC6detail8beaconID03carbH0AA13DetailsResultCSSSg_s5Int64VSgtFZ">detail(beaconID:<wbr>carParkID:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">beaconID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">carParkID</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DetailsResult.html">DetailsResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC6detail14detailsRequestAA13DetailsResultCAA0iH0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/detail(detailsRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC6detail14detailsRequestAA13DetailsResultCAA0iH0C_tFZ">detail(detailsRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">detailsRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/DetailsRequest.html">DetailsRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DetailsResult.html">DetailsResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC6detail14detailsRequest15completionBlockyAA07DetailsH0C_yAA0K6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/detail(detailsRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC6detail14detailsRequest15completionBlockyAA07DetailsH0C_yAA0K6ResultCSg_s5Error_pSgtctFZ">detail(detailsRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">detailsRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/DetailsRequest.html">DetailsRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/DetailsResult.html">DetailsResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC5enter6laneId014calculatedLaneH0AA11EnterResultCs5Int64V_AJSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/enter(laneId:calculatedLaneId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC5enter6laneId014calculatedLaneH0AA11EnterResultCs5Int64V_AJSgtFZ">enter(laneId:<wbr>calculatedLaneId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">enter</span><span class="p">(</span><span class="nv">laneId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">,</span> <span class="nv">calculatedLaneId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/EnterResult.html">EnterResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC5enter0F7RequestAA11EnterResultCAA0hG0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/enter(enterRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC5enter0F7RequestAA11EnterResultCAA0hG0C_tFZ">enter(enterRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">enter</span><span class="p">(</span><span class="nv">enterRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/EnterRequest.html">EnterRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/EnterResult.html">EnterResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC5enter0F7Request15completionBlockyAA05EnterG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/enter(enterRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC5enter0F7Request15completionBlockyAA05EnterG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ">enter(enterRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">enter</span><span class="p">(</span><span class="nv">enterRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/EnterRequest.html">EnterRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/EnterResult.html">EnterResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC4exit6laneId014calculatedLaneH0AA10ExitResultCs5Int64V_AJSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/exit(laneId:calculatedLaneId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC4exit6laneId014calculatedLaneH0AA10ExitResultCs5Int64V_AJSgtFZ">exit(laneId:<wbr>calculatedLaneId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">exit</span><span class="p">(</span><span class="nv">laneId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">,</span> <span class="nv">calculatedLaneId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/ExitResult.html">ExitResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC4exit0F7RequestAA10ExitResultCAA0hG0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/exit(exitRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC4exit0F7RequestAA10ExitResultCAA0hG0C_tFZ">exit(exitRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">exit</span><span class="p">(</span><span class="nv">exitRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/ExitRequest.html">ExitRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/ExitResult.html">ExitResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC4exit0F7Request15completionBlockyAA04ExitG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/exit(exitRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC4exit0F7Request15completionBlockyAA04ExitG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ">exit(exitRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">exit</span><span class="p">(</span><span class="nv">exitRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/ExitRequest.html">ExitRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/ExitResult.html">ExitResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC12notification7beaconsAA12NoticeResultCSayAA0H13BeaconRequestCG_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/notification(beacons:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC12notification7beaconsAA12NoticeResultCSayAA0H13BeaconRequestCG_tFZ">notification(beacons:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notification</span><span class="p">(</span><span class="nv">beacons</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/NoticeBeaconRequest.html">NoticeBeaconRequest</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/NoticeResult.html">NoticeResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC12notification13noticeRequestAA12NoticeResultCAA0iH0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/notification(noticeRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC12notification13noticeRequestAA12NoticeResultCAA0iH0C_tFZ">notification(noticeRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notification</span><span class="p">(</span><span class="nv">noticeRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/NoticeRequest.html">NoticeRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/NoticeResult.html">NoticeResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC12notification13noticeRequest15completionBlockyAA06NoticeH0C_yAA0K6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/notification(noticeRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC12notification13noticeRequest15completionBlockyAA06NoticeH0C_yAA0K6ResultCSg_s5Error_pSgtctFZ">notification(noticeRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notification</span><span class="p">(</span><span class="nv">noticeRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/NoticeRequest.html">NoticeRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/NoticeResult.html">NoticeResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC13beaconPayload0fG7RequestAA06BeaconG6ResultCAA0igH0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/beaconPayload(beaconPayloadRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC13beaconPayload0fG7RequestAA06BeaconG6ResultCAA0igH0C_tFZ">beaconPayload(beaconPayloadRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">beaconPayload</span><span class="p">(</span><span class="nv">beaconPayloadRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/BeaconPayloadRequest.html">BeaconPayloadRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/BeaconPayloadResult.html">BeaconPayloadResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK03CarB3APIC13beaconPayload0fG7Request15completionBlockyAA06BeacongH0C_yAA0kG6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/beaconPayload(beaconPayloadRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK03CarB3APIC13beaconPayload0fG7Request15completionBlockyAA06BeacongH0C_yAA0kG6ResultCSg_s5Error_pSgtctFZ">beaconPayload(beaconPayloadRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">beaconPayload</span><span class="p">(</span><span class="nv">beaconPayloadRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/BeaconPayloadRequest.html">BeaconPayloadRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/BeaconPayloadResult.html">BeaconPayloadResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

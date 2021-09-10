@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UbiParkSDKConfig Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/UbiParkSDKConfig" class="dashAnchor"></a>
+    <a title="UbiParkSDKConfig Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UbiParkSDKConfig Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenRequest.html">AuthTokenRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenResult.html">AuthTokenResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconModel.html">BeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadDetail.html">BeaconPayloadDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadItem.html">BeaconPayloadItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadRequest.html">BeaconPayloadRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadResult.html">BeaconPayloadResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService.html">BeaconService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkAPI.html">CarParkAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkModel.html">CarParkModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserRequest.html">CreateUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserResult.html">CreateUserResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailRequest.html">DetailRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailResult.html">DetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsRequest.html">DetailsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsResult.html">DetailsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterRequest.html">EnterRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterResult.html">EnterResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitRequest.html">ExitRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitResult.html">ExitResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconModel.html">LaneBeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconResult.html">LaneBeaconResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneModel.html">LaneModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneResult.html">LaneResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginRequest.html">LoginRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginResult.html">LoginResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeBeaconRequest.html">NoticeBeaconRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeDetailResult.html">NoticeDetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeMessageResult.html">NoticeMessageResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeRequest.html">NoticeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeResult.html">NoticeResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusRequest.html">StatusRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusResult.html">StatusResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateRequest.html">UpdateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateResult.html">UpdateResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserAPI.html">UserAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserRequest.html">UserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserResult.html">UserResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BeaconLogLevel.html">BeaconLogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BeaconServiceDelegate.html">BeaconServiceDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/NoticeLaneInfoResult.html">NoticeLaneInfoResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UbiParkSDKConfig.html">UbiParkSDKConfig</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UbiParkSDKConfig</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">UbiParkSDKConfig</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV12getVersionNoSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getVersionNo()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV12getVersionNoSSyFZ">getVersionNo()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getVersionNo</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV8getAppIdSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getAppId()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV8getAppIdSSyFZ">getAppId()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppId</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV8setAppId03appG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setAppId(appId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV8setAppId03appG0ySS_tFZ">setAppId(appId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppId</span><span class="p">(</span><span class="nv">appId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV14getBeaconTokenSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getBeaconToken()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV14getBeaconTokenSSyFZ">getBeaconToken()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getBeaconToken</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV14setBeaconToken06beaconG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setBeaconToken(beaconToken:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV14setBeaconToken06beaconG0ySS_tFZ">setBeaconToken(beaconToken:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setBeaconToken</span><span class="p">(</span><span class="nv">beaconToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV15getClientSecretSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getClientSecret()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV15getClientSecretSSyFZ">getClientSecret()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getClientSecret</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV15setClientSecret06clientG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setClientSecret(clientSecret:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV15setClientSecret06clientG0ySS_tFZ">setClientSecret(clientSecret:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setClientSecret</span><span class="p">(</span><span class="nv">clientSecret</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV18getCurrentLatitudeSdSgyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getCurrentLatitude()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV18getCurrentLatitudeSdSgyFZ">getCurrentLatitude()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getCurrentLatitude</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV18setCurrentLatitude07currentG0ySdSg_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setCurrentLatitude(currentLatitude:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV18setCurrentLatitude07currentG0ySdSg_tFZ">setCurrentLatitude(currentLatitude:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setCurrentLatitude</span><span class="p">(</span><span class="nv">currentLatitude</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV19getCurrentLongitudeSdSgyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getCurrentLongitude()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV19getCurrentLongitudeSdSgyFZ">getCurrentLongitude()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getCurrentLongitude</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV19setCurrentLongitude07currentG0ySdSg_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setCurrentLongitude(currentLongitude:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV19setCurrentLongitude07currentG0ySdSg_tFZ">setCurrentLongitude(currentLongitude:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setCurrentLongitude</span><span class="p">(</span><span class="nv">currentLongitude</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV13getServerNameSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getServerName()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV13getServerNameSSyFZ">getServerName()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getServerName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV13setServerName06serverG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setServerName(serverName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV13setServerName06serverG0ySS_tFZ">setServerName(serverName:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setServerName</span><span class="p">(</span><span class="nv">serverName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV9getUserIds5Int64VyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getUserId()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV9getUserIds5Int64VyFZ">getUserId()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getUserId</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV9setUserId04userG0ys5Int64V_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setUserId(userId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV9setUserId04userG0ys5Int64V_tFZ">setUserId(userId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setUserId</span><span class="p">(</span><span class="nv">userId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV12getUserTokenSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getUserToken()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV12getUserTokenSSyFZ">getUserToken()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getUserToken</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV12setUserToken04userG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setUserToken(userToken:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV12setUserToken04userG0ySS_tFZ">setUserToken(userToken:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setUserToken</span><span class="p">(</span><span class="nv">userToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV7setUser6userId0G5Tokenys5Int64V_SStFZ"></a>
+                    <a name="//apple_ref/swift/Method/setUser(userId:userToken:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV7setUser6userId0G5Tokenys5Int64V_SStFZ">setUser(userId:<wbr>userToken:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setUser</span><span class="p">(</span><span class="nv">userId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">,</span> <span class="nv">userToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV9resetUseryyFZ"></a>
+                    <a name="//apple_ref/swift/Method/resetUser()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV9resetUseryyFZ">resetUser()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">resetUser</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV10getAppNameSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getAppName()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV10getAppNameSSyFZ">getAppName()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV10setAppName03appG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setAppName(appName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV10setAppName03appG0ySS_tFZ">setAppName(appName:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppName</span><span class="p">(</span><span class="nv">appName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV17getAppPackageNameSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getAppPackageName()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV17getAppPackageNameSSyFZ">getAppPackageName()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppPackageName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV17setAppPackageName03appgH0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setAppPackageName(appPackageName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV17setAppPackageName03appgH0ySS_tFZ">setAppPackageName(appPackageName:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppPackageName</span><span class="p">(</span><span class="nv">appPackageName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV13getAppVersionSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getAppVersion()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV13getAppVersionSSyFZ">getAppVersion()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppVersion</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV13setAppVersion03appG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setAppVersion(appVersion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV13setAppVersion03appG0ySS_tFZ">setAppVersion(appVersion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppVersion</span><span class="p">(</span><span class="nv">appVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV11getAppBuildSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getAppBuild()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV11getAppBuildSSyFZ">getAppBuild()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppBuild</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV11setAppBuild03appG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setAppBuild(appBuild:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV11setAppBuild03appG0ySS_tFZ">setAppBuild(appBuild:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppBuild</span><span class="p">(</span><span class="nv">appBuild</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV14getDeviceModelSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getDeviceModel()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV14getDeviceModelSSyFZ">getDeviceModel()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceModel</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV14setDeviceModel06deviceG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setDeviceModel(deviceModel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV14setDeviceModel06deviceG0ySS_tFZ">setDeviceModel(deviceModel:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceModel</span><span class="p">(</span><span class="nv">deviceModel</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV21getDeviceManufacturerSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getDeviceManufacturer()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV21getDeviceManufacturerSSyFZ">getDeviceManufacturer()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceManufacturer</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV21setDeviceManufacturer06deviceG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setDeviceManufacturer(deviceManufacturer:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV21setDeviceManufacturer06deviceG0ySS_tFZ">setDeviceManufacturer(deviceManufacturer:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceManufacturer</span><span class="p">(</span><span class="nv">deviceManufacturer</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV13getDeviceNameSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getDeviceName()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV13getDeviceNameSSyFZ">getDeviceName()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV13setDeviceName06deviceG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setDeviceName(deviceName:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV13setDeviceName06deviceG0ySS_tFZ">setDeviceName(deviceName:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceName</span><span class="p">(</span><span class="nv">deviceName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV16getDeviceVersionSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getDeviceVersion()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV16getDeviceVersionSSyFZ">getDeviceVersion()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceVersion</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV16setDeviceVersion06deviceG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setDeviceVersion(deviceVersion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV16setDeviceVersion06deviceG0ySS_tFZ">setDeviceVersion(deviceVersion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceVersion</span><span class="p">(</span><span class="nv">deviceVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV17getDevicePlatformSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getDevicePlatform()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV17getDevicePlatformSSyFZ">getDevicePlatform()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDevicePlatform</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV17setDevicePlatform06deviceG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setDevicePlatform(devicePlatform:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV17setDevicePlatform06deviceG0ySS_tFZ">setDevicePlatform(devicePlatform:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDevicePlatform</span><span class="p">(</span><span class="nv">devicePlatform</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV14getDeviceIdiomSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getDeviceIdiom()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV14getDeviceIdiomSSyFZ">getDeviceIdiom()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceIdiom</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV14setDeviceIdiom06deviceG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setDeviceIdiom(deviceIdiom:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV14setDeviceIdiom06deviceG0ySS_tFZ">setDeviceIdiom(deviceIdiom:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceIdiom</span><span class="p">(</span><span class="nv">deviceIdiom</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV13getDeviceTypeSSyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getDeviceType()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV13getDeviceTypeSSyFZ">getDeviceType()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceType</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV13setDeviceType06deviceG0ySS_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setDeviceType(deviceType:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV13setDeviceType06deviceG0ySS_tFZ">setDeviceType(deviceType:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceType</span><span class="p">(</span><span class="nv">deviceType</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV17getBeaconLogLevelAA0fgH0OyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getBeaconLogLevel()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV17getBeaconLogLevelAA0fgH0OyFZ">getBeaconLogLevel()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getBeaconLogLevel</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/BeaconLogLevel.html">BeaconLogLevel</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV17setBeaconLogLevel06beacongH0yAA0fgH0O_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setBeaconLogLevel(beaconLogLevel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV17setBeaconLogLevel06beacongH0yAA0fgH0O_tFZ">setBeaconLogLevel(beaconLogLevel:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setBeaconLogLevel</span><span class="p">(</span><span class="nv">beaconLogLevel</span><span class="p">:</span> <span class="kt"><a href="../Enums/BeaconLogLevel.html">BeaconLogLevel</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV23getBeaconPayloadLoggingSbyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getBeaconPayloadLogging()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV23getBeaconPayloadLoggingSbyFZ">getBeaconPayloadLogging()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getBeaconPayloadLogging</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK0aB9SDKConfigV23setBeaconPayloadLogging7enabledySb_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/setBeaconPayloadLogging(enabled:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK0aB9SDKConfigV23setBeaconPayloadLogging7enabledySb_tFZ">setBeaconPayloadLogging(enabled:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setBeaconPayloadLogging</span><span class="p">(</span><span class="nv">enabled</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

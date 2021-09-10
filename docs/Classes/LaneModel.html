@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LaneModel Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/LaneModel" class="dashAnchor"></a>
+    <a title="LaneModel Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        LaneModel Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenRequest.html">AuthTokenRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenResult.html">AuthTokenResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconModel.html">BeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadDetail.html">BeaconPayloadDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadItem.html">BeaconPayloadItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadRequest.html">BeaconPayloadRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadResult.html">BeaconPayloadResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService.html">BeaconService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkAPI.html">CarParkAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkModel.html">CarParkModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserRequest.html">CreateUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserResult.html">CreateUserResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailRequest.html">DetailRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailResult.html">DetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsRequest.html">DetailsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsResult.html">DetailsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterRequest.html">EnterRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterResult.html">EnterResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitRequest.html">ExitRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitResult.html">ExitResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconModel.html">LaneBeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconResult.html">LaneBeaconResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneModel.html">LaneModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneResult.html">LaneResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginRequest.html">LoginRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginResult.html">LoginResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeBeaconRequest.html">NoticeBeaconRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeDetailResult.html">NoticeDetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeMessageResult.html">NoticeMessageResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeRequest.html">NoticeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeResult.html">NoticeResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusRequest.html">StatusRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusResult.html">StatusResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateRequest.html">UpdateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateResult.html">UpdateResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserAPI.html">UserAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserRequest.html">UserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserResult.html">UserResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BeaconLogLevel.html">BeaconLogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BeaconServiceDelegate.html">BeaconServiceDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/NoticeLaneInfoResult.html">NoticeLaneInfoResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UbiParkSDKConfig.html">UbiParkSDKConfig</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>LaneModel</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">LaneModel</span> <span class="p">:</span> <span class="kt">Equatable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Details of a lane and associated beacons</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC6laneIds5Int64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/laneId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC6laneIds5Int64Vvp">laneId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unique identifier for car park lane.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">laneId</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC8laneTypes5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/laneType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC8laneTypes5Int64VSgvp">laneType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The type of the lane.  1 &#x3D; Entry  2 &#x3D; Exit  3 &#x3D; Ped Door  4 &#x3D; Nested Entry  5 &#x3D; Nested Exit  6 &#x3D; Nested Soft</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">laneType</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC11laneGroupIds5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/laneGroupId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC11laneGroupIds5Int64VSgvp">laneGroupId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Identifier to logically group lanes. (e.g. Entry #2, Exit 1)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">laneGroupId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC14laneGroupDelays5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/laneGroupDelay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC14laneGroupDelays5Int64VSgvp">laneGroupDelay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Time in seconds to wait after entry/exit before scanning for beacons again. If null or 0   default time is used (~20secs)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">laneGroupDelay</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC13detectionTypes5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/detectionType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC13detectionTypes5Int64VSgvp">detectionType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The method to use for lane detection for this lane group.  1 &#x3D; All  2 &#x3D; Closest</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">detectionType</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC7minRSSIs5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/minRSSI" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC7minRSSIs5Int64VSgvp">minRSSI</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Minimum RSSI required before displaying entry/exit</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">minRSSI</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC16minDetectionSecss5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/minDetectionSecs" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC16minDetectionSecss5Int64VSgvp">minDetectionSecs</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Minimum no of seconds to wait before displaying entry/exit</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">minDetectionSecs</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC16maxDetectionSecss5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/maxDetectionSecs" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC16maxDetectionSecss5Int64VSgvp">maxDetectionSecs</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Maximum no of seconds to wait before displaying entry/exit</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">maxDetectionSecs</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC9retrySecss5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/retrySecs" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC9retrySecss5Int64VSgvp">retrySecs</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Minimum no of seconds before displaying lane change</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">retrySecs</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC9sortOrders5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/sortOrder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC9sortOrders5Int64VSgvp">sortOrder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Order that labes should be sorted by within the group (the result set is ordered accordingly)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">sortOrder</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC4nameSSvp"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC4nameSSvp">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The full name for this lane</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC9shortNameSSvp"></a>
+                    <a name="//apple_ref/swift/Property/shortName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC9shortNameSSvp">shortName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The name to display for this lane</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shortName</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC17beaconSensitivitys5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/beaconSensitivity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC17beaconSensitivitys5Int64VSgvp">beaconSensitivity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A number in “db” between -100 and -40</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">beaconSensitivity</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC15laneSensitivitys5Int64VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/laneSensitivity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC15laneSensitivitys5Int64VSgvp">laneSensitivity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A number in “db” between 0 and 20</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">laneSensitivity</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC11laneBeaconsSayAA0d6BeaconE0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/laneBeacons" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC11laneBeaconsSayAA0d6BeaconE0CGvp">laneBeacons</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A list of beacons associated with the lane</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">laneBeacons</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/LaneBeaconModel.html">LaneBeaconModel</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC4rssis5Int64Vvp"></a>
+                    <a name="//apple_ref/swift/Property/rssi" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC4rssis5Int64Vvp">rssi</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">rssi</span><span class="p">:</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC03carB0AA03CarbE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/carPark" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC03carB0AA03CarbE0CSgvp">carPark</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">carPark</span><span class="p">:</span> <span class="kt"><a href="../Classes/CarParkModel.html">CarParkModel</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC7closestSbvp"></a>
+                    <a name="//apple_ref/swift/Property/closest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC7closestSbvp">closest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">closest</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC10getMinRSSIs5Int64VyF"></a>
+                    <a name="//apple_ref/swift/Method/getMinRSSI()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC10getMinRSSIs5Int64VyF">getMinRSSI()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getMinRSSI</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC19getMinDetectionSecss5Int64VyF"></a>
+                    <a name="//apple_ref/swift/Method/getMinDetectionSecs()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC19getMinDetectionSecss5Int64VyF">getMinDetectionSecs()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getMinDetectionSecs</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC19getMaxDetectionSecss5Int64VyF"></a>
+                    <a name="//apple_ref/swift/Method/getMaxDetectionSecs()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC19getMaxDetectionSecss5Int64VyF">getMaxDetectionSecs()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getMaxDetectionSecs</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK9LaneModelC12getRetrySecss5Int64VyF"></a>
+                    <a name="//apple_ref/swift/Method/getRetrySecs()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC12getRetrySecss5Int64VyF">getRetrySecs()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getRetrySecs</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int64</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SQ2eeoiySbx_xtFZ"></a>
+                    <a name="//apple_ref/swift/Method/==(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SQ2eeoiySbx_xtFZ">==(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">==</span> <span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="kt">LaneModel</span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="kt">LaneModel</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

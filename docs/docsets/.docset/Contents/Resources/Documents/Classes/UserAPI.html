@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UserAPI Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/UserAPI" class="dashAnchor"></a>
+    <a title="UserAPI Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UserAPI Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenRequest.html">AuthTokenRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AuthTokenResult.html">AuthTokenResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconModel.html">BeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadDetail.html">BeaconPayloadDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadItem.html">BeaconPayloadItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadRequest.html">BeaconPayloadRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconPayloadResult.html">BeaconPayloadResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService.html">BeaconService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkAPI.html">CarParkAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarParkModel.html">CarParkModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserRequest.html">CreateUserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateUserResult.html">CreateUserResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailRequest.html">DetailRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailResult.html">DetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsRequest.html">DetailsRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailsResult.html">DetailsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterRequest.html">EnterRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnterResult.html">EnterResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitRequest.html">ExitRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExitResult.html">ExitResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconModel.html">LaneBeaconModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneBeaconResult.html">LaneBeaconResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneModel.html">LaneModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LaneResult.html">LaneResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginRequest.html">LoginRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginResult.html">LoginResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeBeaconRequest.html">NoticeBeaconRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeDetailResult.html">NoticeDetailResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeMessageResult.html">NoticeMessageResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeRequest.html">NoticeRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoticeResult.html">NoticeResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusRequest.html">StatusRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StatusResult.html">StatusResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateRequest.html">UpdateRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpdateResult.html">UpdateResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserAPI.html">UserAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserRequest.html">UserRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserResult.html">UserResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BeaconLogLevel.html">BeaconLogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BeaconServiceDelegate.html">BeaconServiceDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/NoticeLaneInfoResult.html">NoticeLaneInfoResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UbiParkSDKConfig.html">UbiParkSDKConfig</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UserAPI</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">UserAPI</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6create5email9firstname8lastname7phoneNo8password19facebookAccessToken06applIdnO0AA0D6ResultCSS_S6StFZ"></a>
+                    <a name="//apple_ref/swift/Method/create(email:firstname:lastname:phoneNo:password:facebookAccessToken:applIdAccessToken:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6create5email9firstname8lastname7phoneNo8password19facebookAccessToken06applIdnO0AA0D6ResultCSS_S6StFZ">create(email:<wbr>firstname:<wbr>lastname:<wbr>phoneNo:<wbr>password:<wbr>facebookAccessToken:<wbr>applIdAccessToken:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">firstname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">lastname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">phoneNo</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">facebookAccessToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">applIdAccessToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/UserResult.html">UserResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6create11userRequestAA0D6ResultCAA0dH0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/create(userRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6create11userRequestAA0D6ResultCAA0dH0C_tFZ">create(userRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">userRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/UserRequest.html">UserRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/UserResult.html">UserResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6create11userRequest15completionBlockyAA0dH0C_yAA0D6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/create(userRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6create11userRequest15completionBlockyAA0dH0C_yAA0D6ResultCSg_s5Error_pSgtctFZ">create(userRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">userRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/UserRequest.html">UserRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/UserResult.html">UserResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC06createD05email9firstname8lastname7phoneNoAA06CreateD6ResultCSS_S3StFZ"></a>
+                    <a name="//apple_ref/swift/Method/createUser(email:firstname:lastname:phoneNo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC06createD05email9firstname8lastname7phoneNoAA06CreateD6ResultCSS_S3StFZ">createUser(email:<wbr>firstname:<wbr>lastname:<wbr>phoneNo:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createUser</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">firstname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">lastname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">phoneNo</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/CreateUserResult.html">CreateUserResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC06createD00fD7RequestAA06CreateD6ResultCAA0hdG0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/createUser(createUserRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC06createD00fD7RequestAA06CreateD6ResultCAA0hdG0C_tFZ">createUser(createUserRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createUser</span><span class="p">(</span><span class="nv">createUserRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/CreateUserRequest.html">CreateUserRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/CreateUserResult.html">CreateUserResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC06createD00fD7Request15completionBlockyAA06CreatedG0C_yAA0jD6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/createUser(createUserRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC06createD00fD7Request15completionBlockyAA06CreatedG0C_yAA0jD6ResultCSg_s5Error_pSgtctFZ">createUser(createUserRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createUser</span><span class="p">(</span><span class="nv">createUserRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/CreateUserRequest.html">CreateUserRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/CreateUserResult.html">CreateUserResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6detailAA12DetailResultCyFZ"></a>
+                    <a name="//apple_ref/swift/Method/detail()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6detailAA12DetailResultCyFZ">detail()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DetailResult.html">DetailResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6detail0F7RequestAA12DetailResultCAA0hG0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/detail(detailRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6detail0F7RequestAA12DetailResultCAA0hG0C_tFZ">detail(detailRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">detailRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/DetailRequest.html">DetailRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DetailResult.html">DetailResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6detail0F7Request15completionBlockyAA06DetailG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/detail(detailRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6detail0F7Request15completionBlockyAA06DetailG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ">detail(detailRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">detailRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/DetailRequest.html">DetailRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/DetailResult.html">DetailResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6update5email9firstName04lastI07phoneNoAA12UpdateResultCSS_S3StFZ"></a>
+                    <a name="//apple_ref/swift/Method/update(email:firstName:lastName:phoneNo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6update5email9firstName04lastI07phoneNoAA12UpdateResultCSS_S3StFZ">update(email:<wbr>firstName:<wbr>lastName:<wbr>phoneNo:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">firstName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">lastName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">phoneNo</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/UpdateResult.html">UpdateResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6update0F7RequestAA12UpdateResultCAA0hG0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/update(updateRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6update0F7RequestAA12UpdateResultCAA0hG0C_tFZ">update(updateRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">updateRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/UpdateRequest.html">UpdateRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/UpdateResult.html">UpdateResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6update0F7Request15completionBlockyAA06UpdateG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/update(updateRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6update0F7Request15completionBlockyAA06UpdateG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ">update(updateRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">updateRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/UpdateRequest.html">UpdateRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/UpdateResult.html">UpdateResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC5login8username8passwordAA11LoginResultCSS_SStFZ"></a>
+                    <a name="//apple_ref/swift/Method/login(username:password:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC5login8username8passwordAA11LoginResultCSS_SStFZ">login(username:<wbr>password:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LoginResult.html">LoginResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC5login0F7RequestAA11LoginResultCAA0hG0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/login(loginRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC5login0F7RequestAA11LoginResultCAA0hG0C_tFZ">login(loginRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">loginRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/LoginRequest.html">LoginRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LoginResult.html">LoginResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC5login8username8password15completionBlockySS_SSyAA11LoginResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/login(username:password:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC5login8username8password15completionBlockySS_SSyAA11LoginResultCSg_s5Error_pSgtctFZ">login(username:<wbr>password:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/LoginResult.html">LoginResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC5login0F7Request15completionBlockyAA05LoginG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/login(loginRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC5login0F7Request15completionBlockyAA05LoginG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ">login(loginRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">loginRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/LoginRequest.html">LoginRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/LoginResult.html">LoginResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC9authToken5email6userIdAA04AuthG6ResultCSSSg_s5Int64VSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/authToken(email:userId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC9authToken5email6userIdAA04AuthG6ResultCSSSg_s5Int64VSgtFZ">authToken(email:<wbr>userId:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">authToken</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AuthTokenResult.html">AuthTokenResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC9authToken0fG7RequestAA04AuthG6ResultCAA0igH0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/authToken(authTokenRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC9authToken0fG7RequestAA04AuthG6ResultCAA0igH0C_tFZ">authToken(authTokenRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">authToken</span><span class="p">(</span><span class="nv">authTokenRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/AuthTokenRequest.html">AuthTokenRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AuthTokenResult.html">AuthTokenResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC9authToken0fG7Request15completionBlockyAA04AuthgH0C_yAA0kG6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/authToken(authTokenRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC9authToken0fG7Request15completionBlockyAA04AuthgH0C_yAA0kG6ResultCSg_s5Error_pSgtctFZ">authToken(authTokenRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">authToken</span><span class="p">(</span><span class="nv">authTokenRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/AuthTokenRequest.html">AuthTokenRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/AuthTokenResult.html">AuthTokenResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6statusAA12StatusResultCyFZ"></a>
+                    <a name="//apple_ref/swift/Method/status()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6statusAA12StatusResultCyFZ">status()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">status</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/StatusResult.html">StatusResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6status0F7RequestAA12StatusResultCAA0hG0C_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/status(statusRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6status0F7RequestAA12StatusResultCAA0hG0C_tFZ">status(statusRequest:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">status</span><span class="p">(</span><span class="nv">statusRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/StatusRequest.html">StatusRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/StatusResult.html">StatusResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10UbiParkSDK7UserAPIC6status0F7Request15completionBlockyAA06StatusG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ"></a>
+                    <a name="//apple_ref/swift/Method/status(statusRequest:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6status0F7Request15completionBlockyAA06StatusG0C_yAA0J6ResultCSg_s5Error_pSgtctFZ">status(statusRequest:<wbr>completionBlock:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">status</span><span class="p">(</span><span class="nv">statusRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/StatusRequest.html">StatusRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/StatusResult.html">StatusResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
