@@ -1,0 +1,3148 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 10,
+      "symbol": "CarParkAPI",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 12,
+      "symbol": "CarParkAPI.detail(beaconID:carParkID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 21,
+      "symbol": "CarParkAPI.detail(detailsRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 43,
+      "symbol": "CarParkAPI.detail(detailsRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 100,
+      "symbol": "CarParkAPI.enter(laneId:calculatedLaneId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 109,
+      "symbol": "CarParkAPI.enter(enterRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 131,
+      "symbol": "CarParkAPI.enter(enterRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 185,
+      "symbol": "CarParkAPI.exit(laneId:calculatedLaneId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 194,
+      "symbol": "CarParkAPI.exit(exitRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 216,
+      "symbol": "CarParkAPI.exit(exitRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 276,
+      "symbol": "CarParkAPI.notification(beacons:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 284,
+      "symbol": "CarParkAPI.notification(noticeRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 306,
+      "symbol": "CarParkAPI.notification(noticeRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 360,
+      "symbol": "CarParkAPI.beaconPayload(beaconPayloadRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/CarParkAPI.swift",
+      "line": 382,
+      "symbol": "CarParkAPI.beaconPayload(beaconPayloadRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 10,
+      "symbol": "UserAPI",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 12,
+      "symbol": "UserAPI.create(email:firstname:lastname:phoneNo:password:facebookAccessToken:applIdAccessToken:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 26,
+      "symbol": "UserAPI.create(userRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 48,
+      "symbol": "UserAPI.create(userRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 102,
+      "symbol": "UserAPI.createUser(email:firstname:lastname:phoneNo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 113,
+      "symbol": "UserAPI.createUser(createUserRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 135,
+      "symbol": "UserAPI.createUser(createUserRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 183,
+      "symbol": "UserAPI.detail()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 190,
+      "symbol": "UserAPI.detail(detailRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 212,
+      "symbol": "UserAPI.detail(detailRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 266,
+      "symbol": "UserAPI.update(email:firstName:lastName:phoneNo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 277,
+      "symbol": "UserAPI.update(updateRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 299,
+      "symbol": "UserAPI.update(updateRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 353,
+      "symbol": "UserAPI.login(username:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 362,
+      "symbol": "UserAPI.login(loginRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 384,
+      "symbol": "UserAPI.login(username:password:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 393,
+      "symbol": "UserAPI.login(loginRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 448,
+      "symbol": "UserAPI.authToken(email:userId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 457,
+      "symbol": "UserAPI.authToken(authTokenRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 479,
+      "symbol": "UserAPI.authToken(authTokenRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 527,
+      "symbol": "UserAPI.status()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 534,
+      "symbol": "UserAPI.status(statusRequest:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/API/UserAPI.swift",
+      "line": 556,
+      "symbol": "UserAPI.status(statusRequest:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenRequest.swift",
+      "line": 10,
+      "symbol": "AuthTokenRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenRequest.swift",
+      "line": 11,
+      "symbol": "AuthTokenRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenRequest.swift",
+      "line": 12,
+      "symbol": "AuthTokenRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenRequest.swift",
+      "line": 13,
+      "symbol": "AuthTokenRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenRequest.swift",
+      "line": 14,
+      "symbol": "AuthTokenRequest.email",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenRequest.swift",
+      "line": 16,
+      "symbol": "AuthTokenRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenResult.swift",
+      "line": 10,
+      "symbol": "AuthTokenResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenResult.swift",
+      "line": 11,
+      "symbol": "AuthTokenResult.result",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenResult.swift",
+      "line": 12,
+      "symbol": "AuthTokenResult.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenResult.swift",
+      "line": 13,
+      "symbol": "AuthTokenResult.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenResult.swift",
+      "line": 14,
+      "symbol": "AuthTokenResult.authenticationToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/AuthTokenResult.swift",
+      "line": 16,
+      "symbol": "AuthTokenResult.init(result:message:userId:authenticationToken:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 10,
+      "symbol": "BeaconModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 11,
+      "symbol": "BeaconModel.beaconID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 12,
+      "symbol": "BeaconModel.serialNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 13,
+      "symbol": "BeaconModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 14,
+      "symbol": "BeaconModel.rssi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 15,
+      "symbol": "BeaconModel.proximity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 16,
+      "symbol": "BeaconModel.accuracy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 17,
+      "symbol": "BeaconModel.measuredPowerAt1Meter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 18,
+      "symbol": "BeaconModel.lastUpdated",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 20,
+      "symbol": "BeaconModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 24,
+      "symbol": "BeaconModel.update(beaconModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconModel.swift",
+      "line": 57,
+      "symbol": "BeaconModel.toModel(beacon:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 10,
+      "symbol": "BeaconPayloadDetail",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 12,
+      "symbol": "BeaconPayloadDetail.beaconID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 13,
+      "symbol": "BeaconPayloadDetail.beaconName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 14,
+      "symbol": "BeaconPayloadDetail.beaconSerialNo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 15,
+      "symbol": "BeaconPayloadDetail.rssi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 16,
+      "symbol": "BeaconPayloadDetail.rssiSmoothed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 17,
+      "symbol": "BeaconPayloadDetail.proximity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 18,
+      "symbol": "BeaconPayloadDetail.accuracy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 19,
+      "symbol": "BeaconPayloadDetail.measuredPowerAt1Meter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadDetail.swift",
+      "line": 21,
+      "symbol": "BeaconPayloadDetail.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadItem.swift",
+      "line": 10,
+      "symbol": "BeaconPayloadItem",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadItem.swift",
+      "line": 12,
+      "symbol": "BeaconPayloadItem.laneID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadItem.swift",
+      "line": 13,
+      "symbol": "BeaconPayloadItem.closest",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadItem.swift",
+      "line": 14,
+      "symbol": "BeaconPayloadItem.rssi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadItem.swift",
+      "line": 15,
+      "symbol": "BeaconPayloadItem.timestampUTC",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadItem.swift",
+      "line": 16,
+      "symbol": "BeaconPayloadItem.details",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadItem.swift",
+      "line": 18,
+      "symbol": "BeaconPayloadItem.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 10,
+      "symbol": "BeaconPayloadRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 11,
+      "symbol": "BeaconPayloadRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 12,
+      "symbol": "BeaconPayloadRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 13,
+      "symbol": "BeaconPayloadRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 14,
+      "symbol": "BeaconPayloadRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 15,
+      "symbol": "BeaconPayloadRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 16,
+      "symbol": "BeaconPayloadRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 17,
+      "symbol": "BeaconPayloadRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 18,
+      "symbol": "BeaconPayloadRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 19,
+      "symbol": "BeaconPayloadRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 20,
+      "symbol": "BeaconPayloadRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 21,
+      "symbol": "BeaconPayloadRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 22,
+      "symbol": "BeaconPayloadRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 23,
+      "symbol": "BeaconPayloadRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 24,
+      "symbol": "BeaconPayloadRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 25,
+      "symbol": "BeaconPayloadRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 26,
+      "symbol": "BeaconPayloadRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 27,
+      "symbol": "BeaconPayloadRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 29,
+      "symbol": "BeaconPayloadRequest.inCarPark",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 30,
+      "symbol": "BeaconPayloadRequest.isNested",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 31,
+      "symbol": "BeaconPayloadRequest.reasonType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 34,
+      "symbol": "BeaconPayloadRequest.calculatedLaneID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 35,
+      "symbol": "BeaconPayloadRequest.laneID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 36,
+      "symbol": "BeaconPayloadRequest.timestampUTC",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 37,
+      "symbol": "BeaconPayloadRequest.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadRequest.swift",
+      "line": 39,
+      "symbol": "BeaconPayloadRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadResult.swift",
+      "line": 10,
+      "symbol": "BeaconPayloadResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/BeaconPayloadResult.swift",
+      "line": 17,
+      "symbol": "BeaconPayloadResult.init(result:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CarParkModel.swift",
+      "line": 10,
+      "symbol": "CarParkModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CarParkModel.swift",
+      "line": 27,
+      "symbol": "CarParkModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 10,
+      "symbol": "CreateUserRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 11,
+      "symbol": "CreateUserRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 12,
+      "symbol": "CreateUserRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 13,
+      "symbol": "CreateUserRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 14,
+      "symbol": "CreateUserRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 15,
+      "symbol": "CreateUserRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 16,
+      "symbol": "CreateUserRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 17,
+      "symbol": "CreateUserRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 18,
+      "symbol": "CreateUserRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 19,
+      "symbol": "CreateUserRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 20,
+      "symbol": "CreateUserRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 21,
+      "symbol": "CreateUserRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 22,
+      "symbol": "CreateUserRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 23,
+      "symbol": "CreateUserRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 24,
+      "symbol": "CreateUserRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 25,
+      "symbol": "CreateUserRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 26,
+      "symbol": "CreateUserRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserRequest.swift",
+      "line": 27,
+      "symbol": "CreateUserRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserResult.swift",
+      "line": 10,
+      "symbol": "CreateUserResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserResult.swift",
+      "line": 11,
+      "symbol": "CreateUserResult.result",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserResult.swift",
+      "line": 12,
+      "symbol": "CreateUserResult.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserResult.swift",
+      "line": 13,
+      "symbol": "CreateUserResult.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserResult.swift",
+      "line": 14,
+      "symbol": "CreateUserResult.authenticationToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/CreateUserResult.swift",
+      "line": 16,
+      "symbol": "CreateUserResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 10,
+      "symbol": "DetailRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 11,
+      "symbol": "DetailRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 12,
+      "symbol": "DetailRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 13,
+      "symbol": "DetailRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 14,
+      "symbol": "DetailRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 15,
+      "symbol": "DetailRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 16,
+      "symbol": "DetailRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 17,
+      "symbol": "DetailRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 18,
+      "symbol": "DetailRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 19,
+      "symbol": "DetailRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 20,
+      "symbol": "DetailRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 21,
+      "symbol": "DetailRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 22,
+      "symbol": "DetailRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 23,
+      "symbol": "DetailRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 24,
+      "symbol": "DetailRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 25,
+      "symbol": "DetailRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 26,
+      "symbol": "DetailRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 27,
+      "symbol": "DetailRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailRequest.swift",
+      "line": 29,
+      "symbol": "DetailRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailResult.swift",
+      "line": 10,
+      "symbol": "DetailResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailResult.swift",
+      "line": 41,
+      "symbol": "DetailResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 10,
+      "symbol": "DetailsRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 11,
+      "symbol": "DetailsRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 12,
+      "symbol": "DetailsRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 13,
+      "symbol": "DetailsRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 14,
+      "symbol": "DetailsRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 15,
+      "symbol": "DetailsRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 16,
+      "symbol": "DetailsRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 17,
+      "symbol": "DetailsRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 18,
+      "symbol": "DetailsRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 19,
+      "symbol": "DetailsRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 20,
+      "symbol": "DetailsRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 21,
+      "symbol": "DetailsRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 22,
+      "symbol": "DetailsRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 23,
+      "symbol": "DetailsRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 24,
+      "symbol": "DetailsRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 25,
+      "symbol": "DetailsRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 26,
+      "symbol": "DetailsRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 27,
+      "symbol": "DetailsRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 29,
+      "symbol": "DetailsRequest.beaconID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 30,
+      "symbol": "DetailsRequest.carParkID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsRequest.swift",
+      "line": 32,
+      "symbol": "DetailsRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsResult.swift",
+      "line": 10,
+      "symbol": "DetailsResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsResult.swift",
+      "line": 27,
+      "symbol": "DetailsResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/DetailsResult.swift",
+      "line": 41,
+      "symbol": "DetailsResult.toModel(detailsResult:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 10,
+      "symbol": "EnterRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 11,
+      "symbol": "EnterRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 12,
+      "symbol": "EnterRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 13,
+      "symbol": "EnterRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 14,
+      "symbol": "EnterRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 15,
+      "symbol": "EnterRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 16,
+      "symbol": "EnterRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 17,
+      "symbol": "EnterRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 18,
+      "symbol": "EnterRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 19,
+      "symbol": "EnterRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 20,
+      "symbol": "EnterRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 21,
+      "symbol": "EnterRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 22,
+      "symbol": "EnterRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 23,
+      "symbol": "EnterRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 24,
+      "symbol": "EnterRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 25,
+      "symbol": "EnterRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 26,
+      "symbol": "EnterRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 27,
+      "symbol": "EnterRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterRequest.swift",
+      "line": 34,
+      "symbol": "EnterRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterResult.swift",
+      "line": 10,
+      "symbol": "EnterResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/EnterResult.swift",
+      "line": 19,
+      "symbol": "EnterResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 10,
+      "symbol": "ExitRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 11,
+      "symbol": "ExitRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 12,
+      "symbol": "ExitRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 13,
+      "symbol": "ExitRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 14,
+      "symbol": "ExitRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 15,
+      "symbol": "ExitRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 16,
+      "symbol": "ExitRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 17,
+      "symbol": "ExitRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 18,
+      "symbol": "ExitRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 19,
+      "symbol": "ExitRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 20,
+      "symbol": "ExitRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 21,
+      "symbol": "ExitRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 22,
+      "symbol": "ExitRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 23,
+      "symbol": "ExitRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 24,
+      "symbol": "ExitRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 25,
+      "symbol": "ExitRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 26,
+      "symbol": "ExitRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 27,
+      "symbol": "ExitRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitRequest.swift",
+      "line": 34,
+      "symbol": "ExitRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitResult.swift",
+      "line": 10,
+      "symbol": "ExitResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/ExitResult.swift",
+      "line": 23,
+      "symbol": "ExitResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 19,
+      "symbol": "LaneBeaconModel.beaconName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 20,
+      "symbol": "LaneBeaconModel.beaconSerialNo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 21,
+      "symbol": "LaneBeaconModel.rssi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 22,
+      "symbol": "LaneBeaconModel.rssiSmoothed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 23,
+      "symbol": "LaneBeaconModel.proximity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 24,
+      "symbol": "LaneBeaconModel.accuracy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 25,
+      "symbol": "LaneBeaconModel.measuredPowerAt1Meter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 27,
+      "symbol": "LaneBeaconModel.history",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 29,
+      "symbol": "LaneBeaconModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconModel.swift",
+      "line": 32,
+      "symbol": "LaneBeaconModel.copy(laneBeaconModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconResult.swift",
+      "line": 19,
+      "symbol": "LaneBeaconResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneBeaconResult.swift",
+      "line": 28,
+      "symbol": "LaneBeaconResult.toModel(laneBeaconResult:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneModel.swift",
+      "line": 46,
+      "symbol": "LaneModel.rssi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneModel.swift",
+      "line": 47,
+      "symbol": "LaneModel.carPark",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneModel.swift",
+      "line": 48,
+      "symbol": "LaneModel.closest",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneModel.swift",
+      "line": 50,
+      "symbol": "LaneModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneModel.swift",
+      "line": 53,
+      "symbol": "LaneModel.getMinRSSI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneModel.swift",
+      "line": 61,
+      "symbol": "LaneModel.getMinDetectionSecs()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneModel.swift",
+      "line": 69,
+      "symbol": "LaneModel.getMaxDetectionSecs()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneModel.swift",
+      "line": 77,
+      "symbol": "LaneModel.getRetrySecs()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneResult.swift",
+      "line": 46,
+      "symbol": "LaneResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LaneResult.swift",
+      "line": 68,
+      "symbol": "LaneResult.toModel(laneResult:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 10,
+      "symbol": "LoginRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 11,
+      "symbol": "LoginRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 12,
+      "symbol": "LoginRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 13,
+      "symbol": "LoginRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 14,
+      "symbol": "LoginRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 15,
+      "symbol": "LoginRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 16,
+      "symbol": "LoginRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 17,
+      "symbol": "LoginRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 18,
+      "symbol": "LoginRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 19,
+      "symbol": "LoginRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 20,
+      "symbol": "LoginRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 21,
+      "symbol": "LoginRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 22,
+      "symbol": "LoginRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 23,
+      "symbol": "LoginRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 24,
+      "symbol": "LoginRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 25,
+      "symbol": "LoginRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 26,
+      "symbol": "LoginRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 27,
+      "symbol": "LoginRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 29,
+      "symbol": "LoginRequest.email",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 30,
+      "symbol": "LoginRequest.password",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 31,
+      "symbol": "LoginRequest.facebookAccessToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 32,
+      "symbol": "LoginRequest.appleIdAccessToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginRequest.swift",
+      "line": 34,
+      "symbol": "LoginRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginResult.swift",
+      "line": 10,
+      "symbol": "LoginResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginResult.swift",
+      "line": 11,
+      "symbol": "LoginResult.result",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginResult.swift",
+      "line": 12,
+      "symbol": "LoginResult.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginResult.swift",
+      "line": 13,
+      "symbol": "LoginResult.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginResult.swift",
+      "line": 14,
+      "symbol": "LoginResult.authenticationToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginResult.swift",
+      "line": 15,
+      "symbol": "LoginResult.emailConfirmed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/LoginResult.swift",
+      "line": 17,
+      "symbol": "LoginResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeBeaconReqeust.swift",
+      "line": 10,
+      "symbol": "NoticeBeaconRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeBeaconReqeust.swift",
+      "line": 17,
+      "symbol": "NoticeBeaconRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeDetailResult.swift",
+      "line": 10,
+      "symbol": "NoticeDetailResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeDetailResult.swift",
+      "line": 19,
+      "symbol": "NoticeDetailResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeLaneInfoResult.swift",
+      "line": 12,
+      "symbol": "NoticeLaneInfoResult",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeLaneInfoResult.swift",
+      "line": 18,
+      "symbol": "NoticeLaneInfoResult.laneType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeLaneInfoResult.swift",
+      "line": 22,
+      "symbol": "NoticeLaneInfoResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeMessageResult.swift",
+      "line": 10,
+      "symbol": "NoticeMessageResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeMessageResult.swift",
+      "line": 17,
+      "symbol": "NoticeMessageResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 10,
+      "symbol": "NoticeRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 11,
+      "symbol": "NoticeRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 12,
+      "symbol": "NoticeRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 13,
+      "symbol": "NoticeRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 14,
+      "symbol": "NoticeRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 15,
+      "symbol": "NoticeRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 16,
+      "symbol": "NoticeRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 17,
+      "symbol": "NoticeRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 18,
+      "symbol": "NoticeRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 19,
+      "symbol": "NoticeRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 20,
+      "symbol": "NoticeRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 21,
+      "symbol": "NoticeRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 22,
+      "symbol": "NoticeRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 23,
+      "symbol": "NoticeRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 24,
+      "symbol": "NoticeRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 25,
+      "symbol": "NoticeRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 26,
+      "symbol": "NoticeRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 27,
+      "symbol": "NoticeRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeRequest.swift",
+      "line": 32,
+      "symbol": "NoticeRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeResult.swift",
+      "line": 10,
+      "symbol": "NoticeResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeResult.swift",
+      "line": 18,
+      "symbol": "NoticeResult.noticeMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeResult.swift",
+      "line": 19,
+      "symbol": "NoticeResult.details",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/NoticeResult.swift",
+      "line": 21,
+      "symbol": "NoticeResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 10,
+      "symbol": "StatusRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 11,
+      "symbol": "StatusRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 12,
+      "symbol": "StatusRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 13,
+      "symbol": "StatusRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 14,
+      "symbol": "StatusRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 15,
+      "symbol": "StatusRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 16,
+      "symbol": "StatusRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 17,
+      "symbol": "StatusRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 18,
+      "symbol": "StatusRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 19,
+      "symbol": "StatusRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 20,
+      "symbol": "StatusRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 21,
+      "symbol": "StatusRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 22,
+      "symbol": "StatusRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 23,
+      "symbol": "StatusRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 24,
+      "symbol": "StatusRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 25,
+      "symbol": "StatusRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 26,
+      "symbol": "StatusRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 27,
+      "symbol": "StatusRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusRequest.swift",
+      "line": 29,
+      "symbol": "StatusRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusResult.swift",
+      "line": 10,
+      "symbol": "StatusResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/StatusResult.swift",
+      "line": 59,
+      "symbol": "StatusResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 10,
+      "symbol": "UpdateRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 11,
+      "symbol": "UpdateRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 12,
+      "symbol": "UpdateRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 13,
+      "symbol": "UpdateRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 14,
+      "symbol": "UpdateRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 15,
+      "symbol": "UpdateRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 16,
+      "symbol": "UpdateRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 17,
+      "symbol": "UpdateRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 18,
+      "symbol": "UpdateRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 19,
+      "symbol": "UpdateRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 20,
+      "symbol": "UpdateRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 21,
+      "symbol": "UpdateRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 22,
+      "symbol": "UpdateRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 23,
+      "symbol": "UpdateRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 24,
+      "symbol": "UpdateRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 25,
+      "symbol": "UpdateRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 26,
+      "symbol": "UpdateRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 27,
+      "symbol": "UpdateRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateRequest.swift",
+      "line": 38,
+      "symbol": "UpdateRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateResult.swift",
+      "line": 10,
+      "symbol": "UpdateResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UpdateResult.swift",
+      "line": 17,
+      "symbol": "UpdateResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 10,
+      "symbol": "UserRequest",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 11,
+      "symbol": "UserRequest.appId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 12,
+      "symbol": "UserRequest.clientSecret",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 13,
+      "symbol": "UserRequest.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 14,
+      "symbol": "UserRequest.userToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 15,
+      "symbol": "UserRequest.currentLatitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 16,
+      "symbol": "UserRequest.currentLongitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 17,
+      "symbol": "UserRequest.appName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 18,
+      "symbol": "UserRequest.appPackageName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 19,
+      "symbol": "UserRequest.appVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 20,
+      "symbol": "UserRequest.appBuild",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 21,
+      "symbol": "UserRequest.deviceModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 22,
+      "symbol": "UserRequest.deviceManufacturer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 23,
+      "symbol": "UserRequest.deviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 24,
+      "symbol": "UserRequest.deviceVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 25,
+      "symbol": "UserRequest.devicePlatform",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 26,
+      "symbol": "UserRequest.deviceIdiom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 27,
+      "symbol": "UserRequest.deviceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserRequest.swift",
+      "line": 44,
+      "symbol": "UserRequest.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserResult.swift",
+      "line": 10,
+      "symbol": "UserResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Models/UserResult.swift",
+      "line": 21,
+      "symbol": "UserResult.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 11,
+      "symbol": "BeaconServiceDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 12,
+      "symbol": "BeaconServiceDelegate.carParkNameChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 13,
+      "symbol": "BeaconServiceDelegate.carParkIdChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 14,
+      "symbol": "BeaconServiceDelegate.beaconsChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 15,
+      "symbol": "BeaconServiceDelegate.lanesChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 16,
+      "symbol": "BeaconServiceDelegate.laneBeaconsChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 17,
+      "symbol": "BeaconServiceDelegate.closestLaneChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 20,
+      "symbol": "BeaconServiceResult",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 27,
+      "symbol": "BeaconService",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 28,
+      "symbol": "BeaconService.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 58,
+      "symbol": "BeaconService.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 133,
+      "symbol": "BeaconService.setTimerEnabled(enabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 140,
+      "symbol": "BeaconService.getClosestLane()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 151,
+      "symbol": "BeaconService.setClosestLane(closestLane:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 182,
+      "symbol": "BeaconService.getCarParkName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 207,
+      "symbol": "BeaconService.getCarParkId()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 264,
+      "symbol": "BeaconService.reset(outOfRange:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 287,
+      "symbol": "BeaconService.initService()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 303,
+      "symbol": "BeaconService.startService(completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 344,
+      "symbol": "BeaconService.stopService(completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 367,
+      "symbol": "BeaconService.onBackground()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 376,
+      "symbol": "BeaconService.onForeground()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 394,
+      "symbol": "BeaconService.onEnter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 401,
+      "symbol": "BeaconService.onExit()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 408,
+      "symbol": "BeaconService.updateRangedBeacons(beaconModels:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 1010,
+      "symbol": "BeaconService.getAcceptableLaneTypes()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 1065,
+      "symbol": "BeaconService.setUserStatus(userStatus:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 1123,
+      "symbol": "BeaconService.BeaconManagerDelegateImp",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 1127,
+      "symbol": "BeaconService.BeaconManagerDelegateImp.init(beaconService:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/Services/BeaconService.swift",
+      "line": 1132,
+      "symbol": "BeaconService.BeaconManagerDelegateImp.beaconManager(_:didRangeBeacons:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 11,
+      "symbol": "BeaconLogLevel",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 16,
+      "symbol": "BeaconLogLevel.high",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 16,
+      "symbol": "BeaconLogLevel.low",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 16,
+      "symbol": "BeaconLogLevel.med",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 16,
+      "symbol": "BeaconLogLevel.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 16,
+      "symbol": "BeaconLogLevel.verbose",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 19,
+      "symbol": "UbiParkSDKConfig",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 51,
+      "symbol": "UbiParkSDKConfig.getVersionNo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 56,
+      "symbol": "UbiParkSDKConfig.getAppId()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 60,
+      "symbol": "UbiParkSDKConfig.setAppId(appId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 64,
+      "symbol": "UbiParkSDKConfig.getBeaconToken()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 68,
+      "symbol": "UbiParkSDKConfig.setBeaconToken(beaconToken:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 72,
+      "symbol": "UbiParkSDKConfig.getClientSecret()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 76,
+      "symbol": "UbiParkSDKConfig.setClientSecret(clientSecret:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 80,
+      "symbol": "UbiParkSDKConfig.getCurrentLatitude()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 84,
+      "symbol": "UbiParkSDKConfig.setCurrentLatitude(currentLatitude:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 88,
+      "symbol": "UbiParkSDKConfig.getCurrentLongitude()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 92,
+      "symbol": "UbiParkSDKConfig.setCurrentLongitude(currentLongitude:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 96,
+      "symbol": "UbiParkSDKConfig.getServerName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 100,
+      "symbol": "UbiParkSDKConfig.setServerName(serverName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 105,
+      "symbol": "UbiParkSDKConfig.getUserId()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 109,
+      "symbol": "UbiParkSDKConfig.setUserId(userId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 113,
+      "symbol": "UbiParkSDKConfig.getUserToken()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 117,
+      "symbol": "UbiParkSDKConfig.setUserToken(userToken:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 121,
+      "symbol": "UbiParkSDKConfig.setUser(userId:userToken:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 126,
+      "symbol": "UbiParkSDKConfig.resetUser()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 132,
+      "symbol": "UbiParkSDKConfig.getAppName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 136,
+      "symbol": "UbiParkSDKConfig.setAppName(appName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 140,
+      "symbol": "UbiParkSDKConfig.getAppPackageName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 144,
+      "symbol": "UbiParkSDKConfig.setAppPackageName(appPackageName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 148,
+      "symbol": "UbiParkSDKConfig.getAppVersion()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 152,
+      "symbol": "UbiParkSDKConfig.setAppVersion(appVersion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 156,
+      "symbol": "UbiParkSDKConfig.getAppBuild()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 160,
+      "symbol": "UbiParkSDKConfig.setAppBuild(appBuild:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 164,
+      "symbol": "UbiParkSDKConfig.getDeviceModel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 168,
+      "symbol": "UbiParkSDKConfig.setDeviceModel(deviceModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 172,
+      "symbol": "UbiParkSDKConfig.getDeviceManufacturer()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 176,
+      "symbol": "UbiParkSDKConfig.setDeviceManufacturer(deviceManufacturer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 180,
+      "symbol": "UbiParkSDKConfig.getDeviceName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 184,
+      "symbol": "UbiParkSDKConfig.setDeviceName(deviceName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 188,
+      "symbol": "UbiParkSDKConfig.getDeviceVersion()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 192,
+      "symbol": "UbiParkSDKConfig.setDeviceVersion(deviceVersion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 196,
+      "symbol": "UbiParkSDKConfig.getDevicePlatform()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 200,
+      "symbol": "UbiParkSDKConfig.setDevicePlatform(devicePlatform:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 204,
+      "symbol": "UbiParkSDKConfig.getDeviceIdiom()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 208,
+      "symbol": "UbiParkSDKConfig.setDeviceIdiom(deviceIdiom:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 212,
+      "symbol": "UbiParkSDKConfig.getDeviceType()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 216,
+      "symbol": "UbiParkSDKConfig.setDeviceType(deviceType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 220,
+      "symbol": "UbiParkSDKConfig.getBeaconLogLevel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 224,
+      "symbol": "UbiParkSDKConfig.setBeaconLogLevel(beaconLogLevel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 228,
+      "symbol": "UbiParkSDKConfig.getBeaconPayloadLogging()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK/UbiParkSDK/UbiParkSDKConfig.swift",
+      "line": 232,
+      "symbol": "UbiParkSDKConfig.setBeaconPayloadLogging(enabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Admin/Documents/UbiPark/Dev/UbiParkSDK"
+}
