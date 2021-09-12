@@ -17,7 +17,7 @@
     <a title="BeaconServiceDelegate Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -61,9 +61,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/BeaconService.html">BeaconService</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
@@ -200,7 +197,12 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>Delegate for handling beacon service events</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    This protocol should be implemented and set as delegate in <strong>BeaconService</strong>
+
+</div>
 
           </section>
           <section class="section task-group-section">
@@ -219,7 +221,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Invoked when car park name is modified</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    This function will be invoked whenever a new car park is detected, or the closest car park changes
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -229,6 +236,25 @@
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">carParkNameChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">carParkName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>carParkName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the name of the closest car park</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -246,7 +272,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Invoked when car park Id is modified</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    This function will be invoked whenever a new car park is detected, or the closest car park changes
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -256,6 +287,25 @@
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">carParkIdChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">carParkId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>carParkId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the unique Id of the closest car park</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -273,7 +323,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Invoked when beacons collection is modified</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    This function will be invoked when the collection of scanned beacons is modified
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -283,6 +338,25 @@
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">beaconsChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">beacons</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/BeaconModel.html">BeaconModel</a></span><span class="p">]?)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>beacons</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a list of <strong>BeaconModel</strong> objects containg details of most recent beacon scan</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -300,7 +374,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Invoked when lanes collection is modified</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    This function will be invoked when the collection of lanes is modified
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -310,6 +389,25 @@
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">lanesChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">lanes</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/LaneModel.html">LaneModel</a></span><span class="p">]?)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lanes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a list of <strong>LaneModel</strong> objects containg details of lanes associated with current car park</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -327,7 +425,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Invoked when the lane beacons collection is modified</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    This function will be invoked when the collection of lane beacons is modified
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -337,6 +440,25 @@
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">laneBeaconsChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">laneBeacons</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/LaneModel.html">LaneModel</a></span><span class="p">]?)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>laneBeacons</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a list of <strong>LaneModel</strong> objects containg details of lanes associated with latest beacon scan</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -354,7 +476,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Invoked when the currently calculated closest lane changes</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    This function will be invoked whenever the closest lane changes
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -365,6 +492,25 @@
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closestLane</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the details of the closest lane</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -373,7 +519,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

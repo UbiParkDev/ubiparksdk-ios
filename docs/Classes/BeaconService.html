@@ -17,7 +17,7 @@
     <a title="BeaconService Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -61,9 +61,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/BeaconService.html">BeaconService</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
@@ -200,7 +197,12 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>The BeaconService</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    To start scanning for beacons call <code>startService(completionBlock: @escaping (BeaconServiceResult) -&gt; Void)</code>
+
+</div>
 
           </section>
           <section class="section task-group-section">
@@ -219,7 +221,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Delegate to register for beacon service event callbacks - an implmentation of <strong>BeaconServiceDelegate</strong></p>
 
                       </div>
                       <div class="declaration">
@@ -246,7 +248,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Inititalizes a new <strong>BeaconService</strong></p>
 
                       </div>
                       <div class="declaration">
@@ -273,7 +275,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Enable or disable the beacon service timer</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    It is useful to disable the timer while debugging so that beacon detection is not reset
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -283,6 +290,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setTimerEnabled</span><span class="p">(</span><span class="nv">enabled</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>enabled</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><strong>true</strong> (default) enables the timer, otherwise <strong>false</strong> disables the timer</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -300,7 +326,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get the currently detected closest lane</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    It is useful to disable the timer while debugging so that beacon detection is not reset
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -311,32 +342,9 @@
 
                         </div>
                       </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10UbiParkSDK13BeaconServiceC14setClosestLane07closestH0yAA0H5ModelCSg_tF"></a>
-                    <a name="//apple_ref/swift/Method/setClosestLane(closestLane:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10UbiParkSDK13BeaconServiceC14setClosestLane07closestH0yAA0H5ModelCSg_tF">setClosestLane(closestLane:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setClosestLane</span><span class="p">(</span><span class="nv">closestLane</span><span class="p">:</span> <span class="kt"><a href="../Classes/LaneModel.html">LaneModel</a></span><span class="p">?)</span></code></pre>
-
-                        </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The <strong>LaneModel</strong> of the closest lane, or nil if no closest lane</p>
                       </div>
                     </section>
                   </div>
@@ -354,7 +362,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get the name of the currently detected car park</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    An empty string is returned for no car park
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -364,6 +377,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getCarParkName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The name of the car park</p>
                       </div>
                     </section>
                   </div>
@@ -381,7 +398,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get the Id of the currently detected car park</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    0 is returned for no car park
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -392,32 +414,9 @@
 
                         </div>
                       </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10UbiParkSDK13BeaconServiceC5reset10outOfRangeySb_tF"></a>
-                    <a name="//apple_ref/swift/Method/reset(outOfRange:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10UbiParkSDK13BeaconServiceC5reset10outOfRangeySb_tF">reset(outOfRange:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">reset</span><span class="p">(</span><span class="nv">outOfRange</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
-
-                        </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The Id of the car park</p>
                       </div>
                     </section>
                   </div>
@@ -435,7 +434,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Initialises the <strong>BeaconService</strong>, should be called before starting the service.</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Before calling <code>initService</code> the <strong>delegate</strong> should be set with you own implementation of <strong>BeaconServiceDelegate</strong>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -462,7 +466,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Starts the <strong>BeaconService</strong></p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    <code>initService</code> shoukld be called before calling <code>startService</code>.  The <strong>delegate</strong> should also be set with you own implementation of <strong>BeaconServiceDelegate</strong>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -489,7 +498,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Stops the <strong>BeaconService</strong></p>
 
                       </div>
                       <div class="declaration">
@@ -499,6 +508,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopService</span><span class="p">(</span><span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -516,7 +544,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Should be called whenever the app is sent to the background</p>
 
                       </div>
                       <div class="declaration">
@@ -543,7 +571,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Should be called whenever the app is brought to the foreground</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Attempts to restart the <strong>BeaconService</strong> if the OS has stoipped it.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -570,7 +603,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Should be called whenever a success <strong>EnterRequest</strong> has been made</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Sends beacon payload data to server if enabled.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -597,7 +635,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Should be called whenever a success <strong>ExitRequest</strong> has been made</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Sends beacon payload data to server if enabled.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -605,60 +648,6 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">onExit</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10UbiParkSDK13BeaconServiceC19updateRangedBeacons12beaconModelsySayAA0D5ModelCG_tF"></a>
-                    <a name="//apple_ref/swift/Method/updateRangedBeacons(beaconModels:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10UbiParkSDK13BeaconServiceC19updateRangedBeacons12beaconModelsySayAA0D5ModelCG_tF">updateRangedBeacons(beaconModels:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateRangedBeacons</span><span class="p">(</span><span class="nv">beaconModels</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/BeaconModel.html">BeaconModel</a></span><span class="p">])</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10UbiParkSDK13BeaconServiceC22getAcceptableLaneTypesSays5Int64VGyF"></a>
-                    <a name="//apple_ref/swift/Method/getAcceptableLaneTypes()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10UbiParkSDK13BeaconServiceC22getAcceptableLaneTypesSays5Int64VGyF">getAcceptableLaneTypes()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getAcceptableLaneTypes</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Int64</span><span class="p">]</span></code></pre>
 
                         </div>
                       </div>
@@ -678,7 +667,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Used to set the status of the current user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    The status of the user affects what lane beacons are detected. e.g. If a user is not in  the car park then only entry lane beacons are detected.
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -689,33 +683,24 @@
 
                         </div>
                       </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10UbiParkSDK13BeaconServiceC0D18ManagerDelegateImpC"></a>
-                    <a name="//apple_ref/swift/Class/BeaconManagerDelegateImp" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10UbiParkSDK13BeaconServiceC0D18ManagerDelegateImpC">BeaconManagerDelegateImp</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">BeaconManagerDelegateImp</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">BCBeaconManagerDelegate</span></code></pre>
-
-                        </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userStatus</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The status of the user. As returned from request to <code>UserAPI.Status()</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -725,7 +710,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

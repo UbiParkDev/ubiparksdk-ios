@@ -17,7 +17,7 @@
     <a title="UbiParkSDKConfig Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -61,9 +61,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/BeaconService.html">BeaconService</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
@@ -200,7 +197,12 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>UbiParkSDK configuration settings</p>
+<div class="aside aside-remarks">
+    <p class="aside-title">Remarks</p>
+    contains methods for configuring the SDK, the values configured here are used in API reauests and for beacon detection.
+
+</div>
 
           </section>
           <section class="section task-group-section">
@@ -219,7 +221,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get the version number of the SDK</p>
 
                       </div>
                       <div class="declaration">
@@ -229,6 +231,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getVersionNo</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>SDK version number</p>
                       </div>
                     </section>
                   </div>
@@ -246,7 +252,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get the AppId</p>
 
                       </div>
                       <div class="declaration">
@@ -256,6 +262,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppId</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AppID</p>
                       </div>
                     </section>
                   </div>
@@ -273,7 +283,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set the AppId</p>
+<div class="aside aside-remarks">
+    <p class="aside-title">Remarks</p>
+    This is the appId assigned to you by UbiPark
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -283,6 +298,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppId</span><span class="p">(</span><span class="nv">appId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>appId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>unique identifier for this app</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -300,7 +334,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get the BeaconToken</p>
 
                       </div>
                       <div class="declaration">
@@ -310,6 +344,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getBeaconToken</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>BeaconToken</p>
                       </div>
                     </section>
                   </div>
@@ -327,7 +365,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set the AppId</p>
+<div class="aside aside-remarks">
+    <p class="aside-title">Remarks</p>
+    This is the beaconToken assigned to you by UbiPark
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -337,6 +380,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setBeaconToken</span><span class="p">(</span><span class="nv">beaconToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>beaconToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>your assigned beacon token</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -354,7 +416,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get the ClientSecret</p>
 
                       </div>
                       <div class="declaration">
@@ -364,6 +426,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getClientSecret</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>ClientSecret</p>
                       </div>
                     </section>
                   </div>
@@ -381,7 +447,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set the ClientSecret</p>
+<div class="aside aside-remarks">
+    <p class="aside-title">Remarks</p>
+    This is the clientSecret assigned to you by UbiPark
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -391,6 +462,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setClientSecret</span><span class="p">(</span><span class="nv">clientSecret</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>clientSecret</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>your assigned client secret</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -408,7 +498,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get latitude currently set</p>
 
                       </div>
                       <div class="declaration">
@@ -418,6 +508,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getCurrentLatitude</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>CurrentLatitude</p>
                       </div>
                     </section>
                   </div>
@@ -435,7 +529,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set the user&rsquo;s current latitude (optional)</p>
+<div class="aside aside-remarks">
+    <p class="aside-title">Remarks</p>
+    This should be updated as the user&rsquo;s location changes
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -445,6 +544,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setCurrentLatitude</span><span class="p">(</span><span class="nv">currentLatitude</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>currentLatitude</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>latitude value to set</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -462,7 +580,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get longitude currently set</p>
 
                       </div>
                       <div class="declaration">
@@ -472,6 +590,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getCurrentLongitude</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>CurrentLongitude</p>
                       </div>
                     </section>
                   </div>
@@ -489,7 +611,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set the user&rsquo;s current longitude (optional)</p>
+<div class="aside aside-remarks">
+    <p class="aside-title">Remarks</p>
+    This should be updated as the user&rsquo;s location changes
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -499,6 +626,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setCurrentLongitude</span><span class="p">(</span><span class="nv">currentLongitude</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>currentLongitude</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>longitude value to set</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -516,7 +662,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get the server name for api requests</p>
 
                       </div>
                       <div class="declaration">
@@ -526,6 +672,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getServerName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>ServerName</p>
                       </div>
                     </section>
                   </div>
@@ -543,7 +693,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set the server name to user for api requests</p>
+<div class="aside aside-remarks">
+    <p class="aside-title">Remarks</p>
+    This will be assigned to you by UbiPark
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -553,6 +708,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setServerName</span><span class="p">(</span><span class="nv">serverName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>serverName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>server name value to set</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -570,7 +744,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get userId</p>
 
                       </div>
                       <div class="declaration">
@@ -580,6 +754,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getUserId</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int64</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>UserId</p>
                       </div>
                     </section>
                   </div>
@@ -597,7 +775,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set userId</p>
 
                       </div>
                       <div class="declaration">
@@ -607,6 +785,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setUserId</span><span class="p">(</span><span class="nv">userId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Id of user to set</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -624,7 +821,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get user&rsquo;s authentication token</p>
 
                       </div>
                       <div class="declaration">
@@ -634,6 +831,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getUserToken</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>UserToken</p>
                       </div>
                     </section>
                   </div>
@@ -651,7 +852,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set the user&rsquo;s authentication token</p>
+<div class="aside aside-remarks">
+    <p class="aside-title">Remarks</p>
+    This is returned by a Login or AuthToken request
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -661,6 +867,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setUserToken</span><span class="p">(</span><span class="nv">userToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>authentication token that corresponds to set <strong>userId</strong></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -678,7 +903,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set the userId and authentication token</p>
 
                       </div>
                       <div class="declaration">
@@ -688,6 +913,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setUser</span><span class="p">(</span><span class="nv">userId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">,</span> <span class="nv">userToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Id of user to set</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>authentication token that corresponds to set <strong>userId</strong></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -705,7 +961,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Reset the current user</p>
+<div class="aside aside-remarks">
+    <p class="aside-title">Remarks</p>
+    This clears the set <strong>userId</strong> and <strong>authToken</strong>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -732,7 +993,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get AppName</p>
 
                       </div>
                       <div class="declaration">
@@ -742,6 +1003,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AppName</p>
                       </div>
                     </section>
                   </div>
@@ -759,7 +1024,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set AppName</p>
 
                       </div>
                       <div class="declaration">
@@ -769,6 +1034,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppName</span><span class="p">(</span><span class="nv">appName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>appName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for AppName</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -786,7 +1070,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get AppPackageName</p>
 
                       </div>
                       <div class="declaration">
@@ -796,6 +1080,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppPackageName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AppPackageName</p>
                       </div>
                     </section>
                   </div>
@@ -813,7 +1101,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set AppPackageName</p>
 
                       </div>
                       <div class="declaration">
@@ -823,6 +1111,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppPackageName</span><span class="p">(</span><span class="nv">appPackageName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>appPackageName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for AppPackageName</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -840,7 +1147,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get AppVersion</p>
 
                       </div>
                       <div class="declaration">
@@ -850,6 +1157,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppVersion</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AppVersion</p>
                       </div>
                     </section>
                   </div>
@@ -867,7 +1178,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set AppVersion</p>
 
                       </div>
                       <div class="declaration">
@@ -877,6 +1188,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppVersion</span><span class="p">(</span><span class="nv">appVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>appVersion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for AppVersion</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -894,7 +1224,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get AppBuild</p>
 
                       </div>
                       <div class="declaration">
@@ -904,6 +1234,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppBuild</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>AppBuild</p>
                       </div>
                     </section>
                   </div>
@@ -921,7 +1255,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set AppBuild</p>
 
                       </div>
                       <div class="declaration">
@@ -931,6 +1265,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setAppBuild</span><span class="p">(</span><span class="nv">appBuild</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>appBuild</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for AppBuild</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -948,7 +1301,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get DeviceModel</p>
 
                       </div>
                       <div class="declaration">
@@ -958,6 +1311,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceModel</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DeviceModel</p>
                       </div>
                     </section>
                   </div>
@@ -975,7 +1332,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set DeviceModel</p>
 
                       </div>
                       <div class="declaration">
@@ -985,6 +1342,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceModel</span><span class="p">(</span><span class="nv">deviceModel</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceModel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for DeviceModel</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1002,7 +1378,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get DeviceManufacturer</p>
 
                       </div>
                       <div class="declaration">
@@ -1012,6 +1388,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceManufacturer</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DeviceManufacturer</p>
                       </div>
                     </section>
                   </div>
@@ -1029,7 +1409,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set DeviceManufacturer</p>
 
                       </div>
                       <div class="declaration">
@@ -1039,6 +1419,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceManufacturer</span><span class="p">(</span><span class="nv">deviceManufacturer</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceManufacturer</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for DeviceManufacturer</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1056,7 +1455,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get DeviceName</p>
 
                       </div>
                       <div class="declaration">
@@ -1066,6 +1465,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DeviceName</p>
                       </div>
                     </section>
                   </div>
@@ -1083,7 +1486,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set DeviceName</p>
 
                       </div>
                       <div class="declaration">
@@ -1093,6 +1496,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceName</span><span class="p">(</span><span class="nv">deviceName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for DeviceName</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1110,7 +1532,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get DeviceVersion</p>
 
                       </div>
                       <div class="declaration">
@@ -1120,6 +1542,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceVersion</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DeviceVersion</p>
                       </div>
                     </section>
                   </div>
@@ -1137,7 +1563,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set DeviceVersion</p>
 
                       </div>
                       <div class="declaration">
@@ -1147,6 +1573,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceVersion</span><span class="p">(</span><span class="nv">deviceVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceVersion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for DeviceVersion</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1164,7 +1609,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get DevicePlatform</p>
 
                       </div>
                       <div class="declaration">
@@ -1174,6 +1619,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDevicePlatform</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DevicePlatform</p>
                       </div>
                     </section>
                   </div>
@@ -1191,7 +1640,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set DevicePlatform</p>
 
                       </div>
                       <div class="declaration">
@@ -1201,6 +1650,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDevicePlatform</span><span class="p">(</span><span class="nv">devicePlatform</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>devicePlatform</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for DevicePlatform</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1218,7 +1686,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get DeviceIdiom</p>
 
                       </div>
                       <div class="declaration">
@@ -1228,6 +1696,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceIdiom</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DeviceIdiom</p>
                       </div>
                     </section>
                   </div>
@@ -1245,7 +1717,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set DeviceIdiom</p>
 
                       </div>
                       <div class="declaration">
@@ -1255,6 +1727,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceIdiom</span><span class="p">(</span><span class="nv">deviceIdiom</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceIdiom</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for DeviceIdiom</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1272,7 +1763,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get DeviceType</p>
 
                       </div>
                       <div class="declaration">
@@ -1282,6 +1773,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getDeviceType</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>DeviceType</p>
                       </div>
                     </section>
                   </div>
@@ -1299,7 +1794,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set DeviceType</p>
 
                       </div>
                       <div class="declaration">
@@ -1309,6 +1804,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setDeviceType</span><span class="p">(</span><span class="nv">deviceType</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for DeviceType</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1326,7 +1840,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get BeaconLogLevel</p>
 
                       </div>
                       <div class="declaration">
@@ -1336,6 +1850,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getBeaconLogLevel</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/BeaconLogLevel.html">BeaconLogLevel</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>BeaconLogLevel</p>
                       </div>
                     </section>
                   </div>
@@ -1353,7 +1871,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set BeaconLogLevel</p>
 
                       </div>
                       <div class="declaration">
@@ -1363,6 +1881,25 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">setBeaconLogLevel</span><span class="p">(</span><span class="nv">beaconLogLevel</span><span class="p">:</span> <span class="kt"><a href="../Enums/BeaconLogLevel.html">BeaconLogLevel</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>beaconLogLevel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to set for BeaconLogLevel</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1380,7 +1917,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get BeaconPayloadLogging</p>
 
                       </div>
                       <div class="declaration">
@@ -1390,6 +1927,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getBeaconPayloadLogging</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>BeaconPayloadLogging</p>
                       </div>
                     </section>
                   </div>
@@ -1407,7 +1948,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Set BeaconPayloadLogging</p>
 
                       </div>
                       <div class="declaration">
@@ -1418,6 +1959,25 @@
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>enabled</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Set to <strong>true</strong> to enable beacon payload logging</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -1426,7 +1986,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

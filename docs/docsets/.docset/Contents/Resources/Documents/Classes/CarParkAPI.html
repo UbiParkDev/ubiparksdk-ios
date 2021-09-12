@@ -17,7 +17,7 @@
     <a title="CarParkAPI Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -61,9 +61,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/BeaconService.html">BeaconService</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
@@ -200,7 +197,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>API methods related to car parks</p>
 
           </section>
           <section class="section task-group-section">
@@ -219,7 +216,20 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get details of a car park</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Either <strong>beaconID</strong> or <strong>carParkID</strong> muse be set
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>detail(detailsRequest: DetailsRequest) -&gt; DetailsResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -229,6 +239,41 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">beaconID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">carParkID</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DetailsResult.html">DetailsResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>beaconID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>unique Id of beacon</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>carParkID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>unique Id of car park</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>DetailsResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -246,7 +291,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get details of a car park</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>detail(beaconID: String?, carParkID: Int64?) -&gt; DetailsResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -256,6 +310,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">detailsRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/DetailsRequest.html">DetailsRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DetailsResult.html">DetailsResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>detailsRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting car park details</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>DetailsResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -273,7 +350,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get details of a car park</p>
 
                       </div>
                       <div class="declaration">
@@ -283,6 +360,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">detailsRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/DetailsRequest.html">DetailsRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/DetailsResult.html">DetailsResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>detailsRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting car park details</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -300,7 +408,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to enter a car park</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>enter(enterRequest: EnterRequest) -&gt; EnterResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -310,6 +427,41 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">enter</span><span class="p">(</span><span class="nv">laneId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">,</span> <span class="nv">calculatedLaneId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/EnterResult.html">EnterResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>laneId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>unique Id of lane to enter</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>calculatedLaneId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>unique Id of calculated closest lane (optional)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>EnterResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -327,7 +479,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to enter a car park</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>enter(laneId: Int64, calculatedLaneId: Int64?) -&gt; EnterResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -337,6 +498,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">enter</span><span class="p">(</span><span class="nv">enterRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/EnterRequest.html">EnterRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/EnterResult.html">EnterResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>enterRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting car park entry</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>EnterResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -354,7 +538,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to enter a car park</p>
 
                       </div>
                       <div class="declaration">
@@ -364,6 +548,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">enter</span><span class="p">(</span><span class="nv">enterRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/EnterRequest.html">EnterRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/EnterResult.html">EnterResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>enterRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting car park entry</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -381,7 +596,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to exit a car park</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>exit(exitRequest: ExitRequest) -&gt; ExitResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -391,6 +615,41 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">exit</span><span class="p">(</span><span class="nv">laneId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">,</span> <span class="nv">calculatedLaneId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/ExitResult.html">ExitResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>laneId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>unique Id of lane to exit</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>calculatedLaneId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>unique Id of calculated closest lane (optional)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>ExitResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -408,7 +667,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to exit a car park</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>exit(laneId: Int64, calculatedLaneId: Int64?) -&gt; ExitResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -418,6 +686,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">exit</span><span class="p">(</span><span class="nv">exitRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/ExitRequest.html">ExitRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/ExitResult.html">ExitResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>exitRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting car park exit</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>EnterResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -435,7 +726,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to exit a car park</p>
 
                       </div>
                       <div class="declaration">
@@ -445,6 +736,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">exit</span><span class="p">(</span><span class="nv">exitRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/ExitRequest.html">ExitRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/ExitResult.html">ExitResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>eitRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting car park exit</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -462,7 +784,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to get notification for detetected beacons</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>notification(noticeRequest: NoticeRequest) -&gt; NoticeResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -472,6 +803,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notification</span><span class="p">(</span><span class="nv">beacons</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/NoticeBeaconRequest.html">NoticeBeaconRequest</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/NoticeResult.html">NoticeResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>beacons</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>list of beacons to get notifcation details for</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>NoticeResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -489,7 +843,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to get notification for detetected beacons</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>notification(beacons: [NoticeBeaconRequest]) -&gt; NoticeResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -499,6 +862,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notification</span><span class="p">(</span><span class="nv">noticeRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/NoticeRequest.html">NoticeRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/NoticeResult.html">NoticeResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>noticeRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>object used to request notifcation details for</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>NoticeResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -516,7 +902,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to get notification for detetected beacons</p>
 
                       </div>
                       <div class="declaration">
@@ -526,6 +912,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">notification</span><span class="p">(</span><span class="nv">noticeRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/NoticeRequest.html">NoticeRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/NoticeResult.html">NoticeResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>noticeRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting notification details</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -543,7 +960,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to to upload beacon payload details to server</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -553,6 +975,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">beaconPayload</span><span class="p">(</span><span class="nv">beaconPayloadRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/BeaconPayloadRequest.html">BeaconPayloadRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/BeaconPayloadResult.html">BeaconPayloadResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>beaconPayloadRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting beacon payload details upload</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>BeaconPayloadResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -570,7 +1015,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Request to to upload beacon payload details to server</p>
 
                       </div>
                       <div class="declaration">
@@ -581,6 +1026,37 @@
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>beaconPayloadRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting beacon payload details upload</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -589,7 +1065,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

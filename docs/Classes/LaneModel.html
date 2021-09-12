@@ -17,7 +17,7 @@
     <a title="LaneModel Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -61,9 +61,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/BeaconService.html">BeaconService</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
@@ -219,7 +216,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Unique identifier for car park lane.</p>
+                        <p>Unique identifier for car park lane</p>
 
                       </div>
                       <div class="declaration">
@@ -246,7 +243,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The type of the lane.  1 &#x3D; Entry  2 &#x3D; Exit  3 &#x3D; Ped Door  4 &#x3D; Nested Entry  5 &#x3D; Nested Exit  6 &#x3D; Nested Soft</p>
+                        <p>The type of the lane.  1 = Entry,  2 = Exit,  3 = Ped Door,  4 = Nested Entry,  5 = Nested Exit,  6 = Nested Soft, 7 = External Access</p>
 
                       </div>
                       <div class="declaration">
@@ -327,7 +324,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The method to use for lane detection for this lane group.  1 &#x3D; All  2 &#x3D; Closest</p>
+                        <p>The method to use for lane detection for this lane group.  1 = All,  2 = Closest</p>
 
                       </div>
                       <div class="declaration">
@@ -462,7 +459,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Order that labes should be sorted by within the group (the result set is ordered accordingly)</p>
+                        <p>Order that lanes should be sorted by within the group (the result set is ordered accordingly)</p>
 
                       </div>
                       <div class="declaration">
@@ -543,7 +540,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A number in “db” between -100 and -40</p>
+                        <p>A number in “db” between -100 and -40 */</p>
 
                       </div>
                       <div class="declaration">
@@ -570,7 +567,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A number in “db” between 0 and 20</p>
+                        <p>A number in “db” between 0 and 20 */</p>
 
                       </div>
                       <div class="declaration">
@@ -597,7 +594,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A list of beacons associated with the lane</p>
+                        <p>A list of beacons associated with the lane */</p>
 
                       </div>
                       <div class="declaration">
@@ -624,7 +621,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Calculated RSSI strength of this lane</p>
 
                       </div>
                       <div class="declaration">
@@ -651,7 +648,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>CarParkModel** associated with this lane</p>
 
                       </div>
                       <div class="declaration">
@@ -678,7 +675,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>true** if this lane is currently calculated as the closest lane, otherwise <strong>false</strong></p>
 
                       </div>
                       <div class="declaration">
@@ -705,7 +702,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Inititalizes a new <strong>LaneModel</strong></p>
 
                       </div>
                       <div class="declaration">
@@ -732,7 +729,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The minimuim RSSI that should be caluclated before treating the lane as detected</p>
 
                       </div>
                       <div class="declaration">
@@ -759,7 +756,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The minimuim amount of time in seconds to wait before detecting the lane</p>
 
                       </div>
                       <div class="declaration">
@@ -786,7 +783,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The maximuim amount of time in seconds to wait before detecting the lane</p>
 
                       </div>
                       <div class="declaration">
@@ -813,7 +810,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The minimum nomber of seconds to wait before displaying lane change</p>
 
                       </div>
                       <div class="declaration">
@@ -830,9 +827,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:SQ2eeoiySbx_xtFZ"></a>
+                    <a name="/s:10UbiParkSDK9LaneModelC2eeoiySbAC_ACtFZ"></a>
                     <a name="//apple_ref/swift/Method/==(_:_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:SQ2eeoiySbx_xtFZ">==(_:<wbr>_:<wbr>)</a>
+                    <a class="token" href="#/s:10UbiParkSDK9LaneModelC2eeoiySbAC_ACtFZ">==(_:<wbr>_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -840,7 +837,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        
+                        <p>Compares two <strong>LaneModel</strong> objects. The are considered equal if both <strong>laneId</strong> values are equal</p>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -858,7 +856,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

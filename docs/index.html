@@ -16,7 +16,7 @@
     <a title="  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html"> Docs</a> (26% documented)</p>
+        <p><a href="index.html"> Docs</a> (100% documented)</p>
         <p class="header-right">
           <form role="search" action="search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -60,9 +60,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="Classes/BeaconService.html">BeaconService</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
@@ -192,24 +189,83 @@
         <section>
           <section class="section">
             
-            <h1 id='introduction' class='heading'>Introduction</h1>
+            <h1 id='ubipark-sdk-for-ios' class='heading'>UbiPark SDK for iOS</h1>
 
-<p>TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. </p>
-<h1 id='getting-started' class='heading'>Getting Started</h1>
+<p>The UbiPark SDKs have been developed for easy integration and to offer flexibility accross a number of different use cases. Please let us know if you have any questions at <a href="mailto:support@ubipark.com">support@ubipark.com</a></p>
 
-<p>TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:</p>
+<p>See our GitHub pages <a href="https://github.com/UbiParkDev">https://github.com/UbiParkDev</a> for documentation and sample projects.</p>
+<h1 id='installation' class='heading'>Installation</h1>
 
-<ol>
-<li>Installation process</li>
-<li>Software dependencies</li>
-<li>Latest releases</li>
-<li>API references</li>
-</ol>
+<p>We recommend installing UbiParkSDK with CocoaPods. CocoaPods is a dependency manager for Swift and Objective-C projects. </p>
+
+<p>Add an UbiParkSDK dependency to your Podfile in your Xcode project directory:</p>
+<pre class="highlight plaintext"><code>pod 'UbiParkSDK', :git =&gt; 'https://github.com/UbiParkDev/ubiparksdk-ios-git'
+</code></pre>
+
+<p>Now you can install the UbiParkSDK dependency in your project:</p>
+<pre class="highlight plaintext"><code>pod install
+</code></pre>
+
+<p>If you need to update the installed UbiParkSDK dependency in your project:</p>
+<pre class="highlight plaintext"><code>pod update
+</code></pre>
+<h1 id='important-information' class='heading'>Important Information</h1>
+
+<p>iOS 11.0 introduces breaking changes on how location permission is requested for background ‘Always’ scanning. See below for details on new NSLocationAlwaysAndWhenInUseUsageDescription plist key.</p>
+
+<p>When using UbiPark SDK in an iOS app there are a number of static descriptions required to explain how the app will use Bluetooth and Beacon technology. These are used by iOS to customise permission prompts when requested by the app. These are included in the application plist file as explained below.</p>
+
+<p>Required for App Store submission (not currently displayed to app users):</p>
+
+<p>NSBluetoothPeripheralUsageDescription (Privacy - Bluetooth Peripheral Usage Description) Location prompt to app users requesting permission to detect beacons either when the app is in use or also when it is closed:</p>
+
+<p>Required when requesting When in Use permission only:</p>
+
+<p>for iOS 8.0 to iOS 11.0 support NSLocationWhenInUseUsageDescription or required when requesting Always and/or When in Use permission:</p>
+
+<p>for iOS 8.0 to iOS 10.0 support NSLocationAlwaysUsageDescription and for iOS 11.0 support NSLocationAlwaysAndWhenInUseUsageDescription Additional Apple documentation on requesting location authorization including escalating your app’s authorization level from When in Use to Always.</p>
+
+<p>Privacy - Bluetooth Peripheral Usage Description in iOS 10.0 Starting in iOS 10 any app using CoreBluetooth is required to include a static NSBluetoothPeripheralUsageDescription plist value in the application plist file (displayed as ‘Privacy - Bluetooth Peripheral Usage Description’). This is a requirement for submission to the App Store for any app that includes the UbiPark SDK or other code that interacts with Bluetooth devices using the CoreBluetooth APIs. The UbiPark SDK uses CoreBluetooth to monitor beacon battery life, apply remote secure settings updates, verify beacon ownership and detect secure beacons. Currently this description is not displayed to app users but could be used in the future so should include appropriate messaging about how beacons are being used by the app.</p>
+
+<p>In case of a failed app submission, for example a rejection stating “Missing Info.plist key - This app attempts to access privacy-sensitive data without a usage description. The app’s Info.plist must contain an NSBluetoothPeripheralUsageDescription key with a string value explaining to the user how the app uses this data.” inclusion of the required key containing a message similar to that used for the location Always or While in Use descriptions should be sufficient to proceed with the submission process.</p>
+
+<p>Location Access Description Starting in iOS8, iOS requires a description to be presented to the user when an app requests access to a user’s location. It is also recommended that a description be provided when requesting access to a user’s location on iOS7 devices.</p>
+
+<p>Descriptions are provided by adding a Plist entry corresponding to the level of location use requested. Add a description for each level of location access you wish to request. These can easily be entered from the ‘Info’ section of your project target (see below) or directly into your Plist file.</p>
+
+<p>Keys:</p>
+
+<p>NSLocationWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription</p>
+<h1 id='basic-usage' class='heading'>Basic Usage</h1>
+
+<p>See our sample app for SDK usage: <a href="https://github.com/UbiParkDev/ubiparksdk-ios-sample">https://github.com/UbiParkDev/ubiparksdk-ios-sample</a></p>
+
+<p>Basic Steps:
+1 - Set your config, using the values supplied by UbiPark</p>
+<pre class="highlight plaintext"><code>UbiParkSDKConfig.setAppId(appId: "{REPLACE WITH YOUR APPID}")
+UbiParkSDKConfig.setServerName(serverName: "{REPLACE WITH SERVER NAME}")
+UbiParkSDKConfig.setBeaconToken(beaconToken: "{REPLACE WITH YOUR BEACONTOKEN}")
+UbiParkSDKConfig.setClientSecret(clientSecret: "{REPLACE WITH YOUR CLIENTSECRET")
+</code></pre>
+
+<p>2 - Create an implementation of <em>BeaconServiceDelegate</em></p>
+
+<p>3 - Create the BeaconService, set the delegate and initialize</p>
+<pre class="highlight plaintext"><code>var beaconService = BeaconService()
+beaconService.delegate = {YOUR *BeaconServiceDelegate*}
+beaconService.initService()
+</code></pre>
+
+<p>4 - Start the service</p>
+<pre class="highlight plaintext"><code>beaconService.startService { beaconServiceResult in
+        ...
+    }
+</code></pre>
 
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

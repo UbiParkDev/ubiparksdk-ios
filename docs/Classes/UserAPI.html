@@ -17,7 +17,7 @@
     <a title="UserAPI Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -61,9 +61,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/BeaconService.html">BeaconService</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/BeaconService/BeaconManagerDelegateImp.html">– BeaconManagerDelegateImp</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a>
@@ -200,7 +197,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>API methods for managing users</p>
 
           </section>
           <section class="section task-group-section">
@@ -209,9 +206,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10UbiParkSDK7UserAPIC6create5email9firstname8lastname7phoneNo8password19facebookAccessToken06applIdnO0AA0D6ResultCSS_S6StFZ"></a>
-                    <a name="//apple_ref/swift/Method/create(email:firstname:lastname:phoneNo:password:facebookAccessToken:applIdAccessToken:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6create5email9firstname8lastname7phoneNo8password19facebookAccessToken06applIdnO0AA0D6ResultCSS_S6StFZ">create(email:<wbr>firstname:<wbr>lastname:<wbr>phoneNo:<wbr>password:<wbr>facebookAccessToken:<wbr>applIdAccessToken:<wbr>)</a>
+                    <a name="/s:10UbiParkSDK7UserAPIC6create5email9firstname8lastname7phoneNo8password19facebookAccessToken07appleIdnO0AA0D6ResultCSS_S6StFZ"></a>
+                    <a name="//apple_ref/swift/Method/create(email:firstname:lastname:phoneNo:password:facebookAccessToken:appleIdAccessToken:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10UbiParkSDK7UserAPIC6create5email9firstname8lastname7phoneNo8password19facebookAccessToken07appleIdnO0AA0D6ResultCSS_S6StFZ">create(email:<wbr>firstname:<wbr>lastname:<wbr>phoneNo:<wbr>password:<wbr>facebookAccessToken:<wbr>appleIdAccessToken:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -219,16 +216,120 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Creates a new user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>create(userRequest: UserRequest) -&gt; UserResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">firstname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">lastname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">phoneNo</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">facebookAccessToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">applIdAccessToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/UserResult.html">UserResult</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">firstname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">lastname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">phoneNo</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">facebookAccessToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">appleIdAccessToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/UserResult.html">UserResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>email</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>emailAddress to create user for (must be unique)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>firstname</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s first name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lastname</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s last name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>phoneNo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s mobile phoneNo</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>password to set for user (not required for facebook or apple)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>facebookAccesToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Facebook token</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>appleIdAccessToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Apple token</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>UserResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -246,7 +347,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Creates a new user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -256,6 +362,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">userRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/UserRequest.html">UserRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/UserResult.html">UserResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for creating a user</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>UserResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -273,7 +402,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Creates a new user</p>
 
                       </div>
                       <div class="declaration">
@@ -283,6 +412,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">userRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/UserRequest.html">UserRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/UserResult.html">UserResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for creating a user</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -300,7 +460,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Creates a new user without a password</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>createUser(createUserRequest: CreateUserRequest) -&gt; CreateUserResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -310,6 +479,65 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createUser</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">firstname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">lastname</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">phoneNo</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/CreateUserResult.html">CreateUserResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>email</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>emailAddress to create user for (must be unique)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>firstname</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s first name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lastname</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s last name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>phoneNo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s mobile phoneNo</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>CreateUserResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -327,7 +555,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Creates a new user without a password</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -337,6 +570,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createUser</span><span class="p">(</span><span class="nv">createUserRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/CreateUserRequest.html">CreateUserRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/CreateUserResult.html">CreateUserResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>createUserRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for creating a user</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>CreateUserResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -354,7 +610,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Creates a new user without a password</p>
 
                       </div>
                       <div class="declaration">
@@ -364,6 +620,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">createUser</span><span class="p">(</span><span class="nv">createUserRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/CreateUserRequest.html">CreateUserRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/CreateUserResult.html">CreateUserResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>createUserRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for creating a user</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -381,7 +668,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get details of currently logged in user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>detail(detailRequest: DetailRequest) -&gt; DetailResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -391,6 +687,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DetailResult.html">DetailResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>DetailResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -408,7 +708,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get details of currently logged in user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -418,6 +723,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">detailRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/DetailRequest.html">DetailRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DetailResult.html">DetailResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>detailRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting user details</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>DetailResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -435,7 +763,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get details of currently logged in user</p>
 
                       </div>
                       <div class="declaration">
@@ -445,6 +773,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">detail</span><span class="p">(</span><span class="nv">detailRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/DetailRequest.html">DetailRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/DetailResult.html">DetailResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>detailRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting user details</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -462,7 +821,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Update current user&rsquo;s details</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>.
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>update(updateRequest: UpdateRequest) -&gt; UpdateResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -472,6 +840,65 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">firstName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">lastName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">phoneNo</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/UpdateResult.html">UpdateResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>email</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>emailAddress to create user for (cannot be updated)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>firstname</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s first name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lastname</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s last name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>phoneNo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s mobile phoneNo</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>UpdateResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -489,7 +916,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Update current user&rsquo;s details</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -499,6 +931,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">updateRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/UpdateRequest.html">UpdateRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/UpdateResult.html">UpdateResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>updateRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for updating user details</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>UpdateRequest</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -516,7 +971,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Update current user&rsquo;s details</p>
 
                       </div>
                       <div class="declaration">
@@ -526,6 +981,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="nv">updateRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/UpdateRequest.html">UpdateRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/UpdateResult.html">UpdateResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>updateRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for updating user details</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -543,7 +1029,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Login a user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>.
+
+</div><div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>login(loginRequest: LoginRequest) -&gt; LoginResult</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -553,6 +1048,41 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LoginResult.html">LoginResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>username</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s username</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s password</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>LoginResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -570,7 +1100,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Login a user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -580,6 +1115,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">loginRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/LoginRequest.html">LoginRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/LoginResult.html">LoginResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>loginRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting user login</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>LoginResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -597,7 +1155,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Login a user</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <code>login(loginRequest: LoginRequest, completionBlock: @escaping (LoginResult?, Error?) -&gt; Void)</code>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -607,6 +1170,49 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/LoginResult.html">LoginResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>username</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s username</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>password</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s password</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -624,7 +1230,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Login a user</p>
 
                       </div>
                       <div class="declaration">
@@ -634,6 +1240,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">login</span><span class="p">(</span><span class="nv">loginRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/LoginRequest.html">LoginRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/LoginResult.html">LoginResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>loginRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting user login</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -651,7 +1288,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get an authentication token for a user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div><div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Either <strong>userId</strong> or <strong>email</strong> is required. If both arguments are specified the email address must match for the userID
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -661,6 +1307,41 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">authToken</span><span class="p">(</span><span class="nv">email</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">Int64</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AuthTokenResult.html">AuthTokenResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>email</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s email address</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the user&rsquo;s unique identifier</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>AuthTokenResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -678,7 +1359,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get an authentication token for a user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -688,6 +1374,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">authToken</span><span class="p">(</span><span class="nv">authTokenRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/AuthTokenRequest.html">AuthTokenRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/AuthTokenResult.html">AuthTokenResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>authTokenRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting an authentication token</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>AuthTokenResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -705,7 +1414,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get an authentication token for a user</p>
 
                       </div>
                       <div class="declaration">
@@ -715,6 +1424,37 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">authToken</span><span class="p">(</span><span class="nv">authTokenRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/AuthTokenRequest.html">AuthTokenRequest</a></span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes/AuthTokenResult.html">AuthTokenResult</a></span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>authTokenRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting an authentication token</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -732,7 +1472,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get status of current user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -742,6 +1487,10 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">status</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/StatusResult.html">StatusResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>StatusResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -759,7 +1508,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get status of current user</p>
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    Network call is made synchronously using <em>DispatchGroup</em>
+
+</div>
 
                       </div>
                       <div class="declaration">
@@ -769,6 +1523,29 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">status</span><span class="p">(</span><span class="nv">statusRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/StatusRequest.html">StatusRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/StatusResult.html">StatusResult</a></span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>statusRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting an user status</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><strong>StatusResult</strong> with request results</p>
                       </div>
                     </section>
                   </div>
@@ -786,7 +1563,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Get status of current user</p>
 
                       </div>
                       <div class="declaration">
@@ -797,6 +1574,37 @@
 
                         </div>
                       </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>statusRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Object to use for requesting an user status</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with the result of the request</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -805,7 +1613,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-09-12)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
