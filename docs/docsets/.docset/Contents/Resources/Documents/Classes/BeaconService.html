@@ -18,17 +18,17 @@
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (100% documented)</p>
-        <p class="header-right">
+        <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
           </form>
-        </p>
+        </div>
       </div>
     </header>
     <div class="content-wrapper">
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
-        <img id="carat" src="../img/carat.png" />
+        <img id="carat" src="../img/carat.png" alt=""/>
         BeaconService Class Reference
       </p>
     </div>
@@ -276,7 +276,10 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Enable or disable the beacon service timer</p>
-<div class="aside aside-remark">
+
+<ul>
+<li>enabled: <strong>true</strong> (default) enables the timer, otherwise <strong>false</strong> disables the timer</li>
+</ul><div class="aside aside-remark">
     <p class="aside-title">Remark</p>
     It is useful to disable the timer while debugging so that beacon detection is not reset
 
@@ -290,25 +293,6 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setTimerEnabled</span><span class="p">(</span><span class="nv">enabled</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>enabled</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p><strong>true</strong> (default) enables the timer, otherwise <strong>false</strong> disables the timer</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -500,6 +484,10 @@
                       <div class="abstract">
                         <p>Stops the <strong>BeaconService</strong></p>
 
+<ul>
+<li>completionBlock: A closure which is called with the result of the request</li>
+</ul>
+
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -508,25 +496,6 @@
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopService</span><span class="p">(</span><span class="nv">completionBlock</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Classes.html#/s:10UbiParkSDK19BeaconServiceResultC">BeaconServiceResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>completionBlock</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A closure which is called with the result of the request</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                     </section>
                   </div>
@@ -668,7 +637,10 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Used to set the status of the current user</p>
-<div class="aside aside-remark">
+
+<ul>
+<li>userStatus: The status of the user. As returned from request to <code>UserAPI.Status()</code></li>
+</ul><div class="aside aside-remark">
     <p class="aside-title">Remark</p>
     The status of the user affects what lane beacons are detected. e.g. If a user is not in  the car park then only entry lane beacons are detected.
 
@@ -683,25 +655,6 @@
 
                         </div>
                       </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>userStatus</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The status of the user. As returned from request to <code>UserAPI.Status()</code></p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
                     </section>
                   </div>
                 </li>
@@ -710,11 +663,10 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2022-01-17)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2023 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2023-05-03)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
     </div>
   </body>
-</div>
 </html>
