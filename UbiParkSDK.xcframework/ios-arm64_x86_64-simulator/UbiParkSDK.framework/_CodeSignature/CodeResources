@@ -4,36 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/KontaktSDK.framework/Base.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GWjVdruKLBSoNQohp5WvnykpSPU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/Info.plist</key>
-		<data>
-		HADqHk/UPRIT/WjsFvSDX88vt68=
-		</data>
-		<key>Frameworks/KontaktSDK.framework/KontaktSDK</key>
-		<data>
-		uGYEhDE7phRmu5a4scoWmlZc9io=
-		</data>
-		<key>Frameworks/KontaktSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		0uwXMEvBc+k5/2yBDj7KNv4vKgc=
-		</data>
-		<key>Frameworks/KontaktSDK.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GWjVdruKLBSoNQohp5WvnykpSPU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/UbiParkSDK-Swift.h</key>
 		<data>
 		qW+a7BbAVdYGHBMrLEagbUfuNzM=
@@ -44,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vwB6LR3xuCQ7oIVLMeZ12GDCH5Y=
+		yHoOZYPwTqtJuQ0U8jUyPVAmA/4=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -93,45 +63,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/KontaktSDK.framework/Base.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WHbkP/6qZxYdbz1Qn4XBcT88uAik+dC0xwzYgm2CtzE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aAccfTQ4aXzADXx+vgZ9L7QCZETM8uu7g3VrDRrjEak=
-			</data>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/KontaktSDK</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5zKZawtp/1x1HDZ1WQAyliDhglE+kAlWxbpdDWeJvFY=
-			</data>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0Vo3YEDZXZcngVCgGUT2AC+Vb6PfcgcdG1kvJBfUnh8=
-			</data>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WHbkP/6qZxYdbz1Qn4XBcT88uAik+dC0xwzYgm2CtzE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/UbiParkSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
