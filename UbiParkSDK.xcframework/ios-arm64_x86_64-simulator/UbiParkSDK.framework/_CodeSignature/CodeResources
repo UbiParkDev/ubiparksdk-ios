@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/UbiParkSDK-Swift.h</key>
 		<data>
-		qW+a7BbAVdYGHBMrLEagbUfuNzM=
+		Yva4k4qakLby+fHaqNTzoNvNtbE=
 		</data>
 		<key>Headers/UbiParkSDK.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yHoOZYPwTqtJuQ0U8jUyPVAmA/4=
+		8Mi35gVYXi8z5kjYHrfG7ZpJ2ac=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RmJsUz018CLuDESk+yWvDZ7Bh1c=
+		oC2Ib9RSsEy3QhQ+Db3yaHaUWeg=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oWgbFYiFdsnd4kYt6OR9bRHFLJY=
+		Bd4k37l7PitsUZctIsjuovmdxAM=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Or6/yzwR9YvwIUcGpTrhgih4b60=
+		2GGfbzqSVuRioc7yKIk86JLW4Dw=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oWgbFYiFdsnd4kYt6OR9bRHFLJY=
+		Bd4k37l7PitsUZctIsjuovmdxAM=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MeXxzH4J8Xf/Thu/Fnlihjwk1Uk=
+		1h4jvEYgUAl0u8PUJ+dFzLtvMj4=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RmJsUz018CLuDESk+yWvDZ7Bh1c=
+		oC2Ib9RSsEy3QhQ+Db3yaHaUWeg=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EtTZ/W4lz/MmZ19cZsJ9OlJeCPQ=
+		f0v0XVvIF65tzUj9DujBKCK2Yns=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Sm6YsaDht+LhvMFxo3c/ckuv2oU=
+		tlZeJ3v/bdD1BiiH0B48NvE4Q64=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EtTZ/W4lz/MmZ19cZsJ9OlJeCPQ=
+		f0v0XVvIF65tzUj9DujBKCK2Yns=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ujgy0OUuCD5y/Cd0ygc1idA6kEk=
+		ZjILqhvg3Bjkxcm3eOelhuA7O5A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fenhy4kgr/Sew9UrmErjXDX4XiFv3UzB59wVWcKMqwg=
+			UZ90f9LbWFvrCuKC3I5fwtT/HD3MBIp++TDB6tSQmMQ=
 			</data>
 		</dict>
 		<key>Headers/UbiParkSDK.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hxbswehyNPmvvWzjo4nGp0t1zf410GsshtyfdXiwNvM=
+			VbS8Z3nuih0CIGv4cXkfSSJWVSVJMlWnk0pPA0z8x/4=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PHRp1Zw9+0PPSfJQNk1a7/BDMHzBF5vNCfUggvg1BX8=
+			9ZfCdaG2g8CHu0DCkNZXbHGmJyBNpNDnY3KAslJe27s=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RtLa3/ooKtkLAKhYyHSatLu5zf0OClc94Aq5llwqnq4=
+			htS8AIPT55gSj42RyZCCn6LAttbrNG8xrw4plW8UrUM=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PHRp1Zw9+0PPSfJQNk1a7/BDMHzBF5vNCfUggvg1BX8=
+			9ZfCdaG2g8CHu0DCkNZXbHGmJyBNpNDnY3KAslJe27s=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ubtVZl7msSePTul+7ubnhmSPpLCiTBeENqtkSB+9ryc=
+			hO03jenPhyB9dJcDlKa7QBYP2Ch+6WUqTGkeE/fSDjo=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hxbswehyNPmvvWzjo4nGp0t1zf410GsshtyfdXiwNvM=
+			VbS8Z3nuih0CIGv4cXkfSSJWVSVJMlWnk0pPA0z8x/4=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KuVbYlDIoMWiG22T3r9lV8ljhDgwZhsbSTiFEGPtblE=
+			xPkldlNqDD1jh32ICEqMKhuEK5vl//IqN+Dr8f46zkw=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5GIjzmEcxiSStUqxrM8jCSn9R/hKsRd9OhKuxWBfMCQ=
+			aISxIXRc1KPju79o84mz/TaEjnACpzWOpOKGb33mgsI=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KuVbYlDIoMWiG22T3r9lV8ljhDgwZhsbSTiFEGPtblE=
+			xPkldlNqDD1jh32ICEqMKhuEK5vl//IqN+Dr8f46zkw=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zdpR4izI0vVMvoPZOY+CAPlJvlbpoc8/oh7s3pcZkvo=
+			klPBi7a6Rtq+CeUvNXZzqfSDu2spFaQhKI6Fl0tx7y4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
